@@ -1,0 +1,641 @@
+#usda 1.0
+(
+    metersPerUnit = 1
+    subLayers = [
+        @./materials.usda@
+    ]
+    upAxis = "y"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+        over "mesh_CC4CB5945AE01664"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def RectLight "SafeHouse_Overhead_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float colorTemperature = 7500
+                bool enableColorTemperature = 1
+                float exposure = 0
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float height = 5.2000003
+                float intensity = 0.7
+                float shaping:cone:angle = 180
+                float shaping:cone:softness
+                float shaping:focus
+                color3f shaping:focusTint
+                asset shaping:ies:file
+                float width = 10.3
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-0.10000000149011612, -0.9000000134110451, 5.4000000804662704)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DistantLight "DistantLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float inputs:angle = 1.2
+                float inputs:colorTemperature = 8000
+                bool inputs:enableColorTemperature = 1
+                float inputs:intensity = 1.9
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-157.70000234991312, 47.000000700354576, -125.10000186413527)
+                double3 xformOp:scale = (1, 1.1000000163912773, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_30CCB1A9384BCF22"
+        {
+            token visibility = "inherited"
+
+            over "mesh"
+            {
+                token visibility = "invisible"
+            }
+        }
+
+        over "mesh_9ACC87B9BF36B49C"
+        {
+            custom int preserveOriginalDrawCall = 1
+        }
+
+        over "mesh_3C3EA1FCD37A68EF"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def RectLight "ParkingGarageLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.07552621503415005, -0.0973452410851193, 4.835518779349744)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (4.643328992929686, -0.09734524108511639, 4.835518779349744)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight02" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-4.715273995642909, -0.09734524108511548, 4.835518779349744)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight03" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.07552621503414869, -2.930459644791003, 4.835518779349744)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight04" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (4.643328992929686, -2.93045964479098, 4.835518779349744)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight05" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-4.740419834716886, -2.930459644791199, 4.835518779349744)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight06" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.07552621503414869, 3.03841692853637, 4.682887011065464)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight07" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (4.643328992929686, 3.0384169285364195, 4.682887011065464)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight08" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-4.715273995642909, 3.0384169285363734, 4.682887011065464)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight09" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.19650382063806138, -14.965087180458514, 5.480348175987442)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight10" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (4.764306598533564, -14.965087180458518, 5.480348175987442)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight11" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-4.594296390038991, -14.965087180458301, 5.480348175987442)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight12" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.3814656014155684, -18.07791713494639, 5.625545522138395)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight13" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (4.949268379311505, -18.07791713494596, 5.625545522138395)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight14" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-4.434480448335444, -18.07791713494648, 5.625545522138395)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight15" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.1965038206380223, -11.829325010836843, 5.327716407703162)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight16" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (4.764306598533566, -11.82932501083763, 5.327716407703162)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "ParkingGarageLight17" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:height = 2.4
+                float inputs:intensity = 24
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.2
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-4.5942963900390295, -11.829325010836842, 5.327716407703162)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_CF8BD482BBEE1C6F"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def DistantLight "DistantLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float inputs:angle = 0.6
+                float inputs:exposure = 0
+                float inputs:intensity = 5.6
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-129, -27.400000408291817, -97.00000144541264)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_94355ABBDF1AAC12"
+        {
+            token visibility = "inherited"
+
+            over "mesh"
+            {
+                token visibility = "invisible"
+            }
+        }
+
+        over "mesh_5F2570D2052FAC50"
+        {
+            token visibility = "inherited"
+
+            over "mesh"
+            {
+                token visibility = "invisible"
+            }
+        }
+
+        over "mesh_903774F3722AED80"
+        {
+            token visibility = "inherited"
+
+            over "mesh"
+            {
+                token visibility = "invisible"
+            }
+        }
+    }
+
+    over "Looks"
+    {
+        over "mat_B4890596D1F21117"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/B4890596D1F21117.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                float opacity_constant = 1 (
+                    customData = {
+                        float default = 1
+                        dictionary range = {
+                            float max = 1
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Opacity Amount"
+                    doc = "Used when no albedo texture is specified. 0 for completely transparent, 1 for completly opaque."
+                    hidden = false
+                )
+            }
+        }
+
+        over "mat_D92D95E919EF5CCD"
+        {
+            over "Shader"
+            {
+                bool blend_enabled = 0 (
+                    customData = {
+                        bool default = 0
+                    }
+                    displayGroup = "Material Flags"
+                    displayName = "Blend Enabled"
+                    doc = "Indicates if alpha state blending should be enabled."
+                    hidden = false
+                )
+                uniform bool enable_opacity = 1
+                bool excludeFromWhiteMode = 0 (
+                    customData = {
+                        bool default = 0
+                    }
+                    displayGroup = "Material Flags"
+                    displayName = "Exclude from White Mode"
+                    hidden = false
+                )
+                bool ignore_material = 1 (
+                    customData = {
+                        bool default = 0
+                    }
+                    displayGroup = "Material Flags"
+                    displayName = "Ignore Material"
+                    doc = "Runtime will not render any objects using an ignored material.  RTX Remix will render with a pink and black checkerboard."
+                    hidden = false
+                )
+                asset inputs:diffuse_texture = @./textures/D92D95E919EF5CCD.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_CE710F82EEF8914B"
+        {
+            over "Shader"
+            {
+                bool ignore_material = 1 (
+                    customData = {
+                        bool default = 0
+                    }
+                    displayGroup = "Material Flags"
+                    displayName = "Ignore Material"
+                    doc = "Runtime will not render any objects using an ignored material.  RTX Remix will render with a pink and black checkerboard."
+                    hidden = false
+                )
+            }
+        }
+
+        over "mat_DE14B914E3B3477E"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/cars/Car.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                float inputs:metallic_constant = 0.28 (
+                    customData = {
+                        float default = 0
+                        dictionary range = {
+                            float max = 1
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Metallic Amount"
+                    doc = "Metallic Material"
+                    hidden = false
+                )
+                float inputs:reflection_roughness_constant = 0.08 (
+                    customData = {
+                        float default = 0.5
+                        dictionary range = {
+                            float max = 1
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Amount"
+                    doc = "Higher roughness values lead to more blurry reflections"
+                    hidden = false
+                )
+            }
+        }
+
+        over "mat_F4689BAB1BB35A21"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/F4689BAB1BB35A21.dds@ (
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_6F049B90590115BF"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/6F049B90590115BF.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+    }
+}
+
