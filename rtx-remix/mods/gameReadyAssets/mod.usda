@@ -1437,33 +1437,76 @@ over "RootNode"
 
         over "mesh_ACB5AC0744177C64"
         {
-            custom int preserveOriginalDrawCall = 1
+            custom int preserveOriginalDrawCall = 0
+        }
 
-            over "mesh" (
-                active = false
-            )
-            {
-            }
+        over "mesh_E8E3F35352B51235"
+        {
+            custom int preserveOriginalDrawCall = 1
 
             def DistantLight "DistantLight" (
                 prepend apiSchemas = ["ShapingAPI"]
             )
             {
-                float inputs:angle = 1
-                float inputs:colorTemperature = 4000
+                float inputs:angle = 3
+                float inputs:colorTemperature = 3700
                 bool inputs:enableColorTemperature = 1
-                float inputs:exposure = 0.3
-                float inputs:intensity = 1
+                float inputs:intensity = 4.2000003
                 float inputs:shaping:cone:angle = 180
                 float inputs:shaping:cone:softness
                 float inputs:shaping:focus
                 color3f inputs:shaping:focusTint
                 asset inputs:shaping:ies:file
-                double3 xformOp:rotateXYZ = (-180, 9.600000143051147, 67.40000100433826)
+                double3 xformOp:rotateXYZ = (-180, -57.100000850856304, 29.300000436604023)
                 double3 xformOp:scale = (1, 1, 1)
                 double3 xformOp:translate = (0, 0, 0)
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:intensity = 46.100002
+                float inputs:radius = 0.5
+                float inputs:shaping:cone:angle = 90
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, -58.964703000008484)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-8.511112562280449, 5.985254600345008, 6.900000102819454)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "SphereLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:intensity = 46.100002
+                float inputs:radius = 0.5
+                float inputs:shaping:cone:angle = 90
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, -58.964703000008484)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1.6967520281977013, -2.5519624485725547, 5.498230327926351)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_EAC57847E62643B6" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </Looks/AperturePBR_Translucent> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
         }
     }
 
@@ -1558,112 +1601,180 @@ over "RootNode"
             {
             }
         }
+
+        over "inst_ACB5AC0744177C64_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_DA53BC0AAA5AAE0B_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_8141A8BB7AE2BA19_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_71BD143C878C7E7B_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_7955525926AF32A8_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_8E4A56DDCAED561C_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_58ADF2B28D5650E9_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_BC6B78EAF2139129_1"
+        {
+            over "mesh" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+            }
+        }
+
+        over "inst_EAC57847E62643B6_1"
+        {
+            over "mesh"
+            {
+                float3 xformOp:rotateXYZ = (0, 0, 0)
+                float3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
     }
 
     over "Looks"
     {
-        over "mat_FCD7CEAF234D3522"
+        over "mat_A5CA5B76300E4744" (
+            delete references = [
+                @../../captures/materials/mat_A5CA5B76300E4744.usd@</Looks/mat_A5CA5B76300E4744>,
+                @./mats/AperturePBR_Translucent.usda@,
+                @./mats/AperturePBR_Translucent.usda@</Looks/AperturePBR_Translucent>
+            ]
+            prepend references = @./mats/AperturePBR_Translucent.usda@</Looks/mat_AperturePBR_Translucent>
+        )
         {
             over "Shader"
             {
-                asset inputs:diffuse_texture = @./textures/FCD7CEAF234D3522.dds@ (
+                float inputs:ior_constant = 1.02 (
                     customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-            }
-        }
-
-        over "mat_0AD8EBB518E9E037"
-        {
-            over "Shader"
-            {
-                asset inputs:diffuse_texture = @./textures/Arch/Concrete/Concrete032_4K_Color.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:normalmap_texture = @./textures/Arch/Concrete/Concrete032_4K_NormalDX.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Normal"
-                    displayName = "Normal Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:reflectionroughness_texture = @./textures/Arch/Concrete/Concrete032_4K_Roughness.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Roughness Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-            }
-        }
-
-        over "mat_5059712BFCE033AE"
-        {
-            over "Shader"
-            {
-                asset inputs:diffuse_texture = @./textures/Arch/5059712BFCE033AE-Base.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:normalmap_texture = @./textures/Arch/5059712BFCE033AE-Normal.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Normal"
-                    displayName = "Normal Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                float inputs:reflection_roughness_constant = 0.96999997 (
-                    customData = {
-                        float default = 0.5
+                        float default = 1.3
                         dictionary range = {
-                            float max = 1
-                            float min = 0
+                            float max = 3
+                            float min = 1
                         }
                     }
                     displayGroup = "Specular"
-                    displayName = "Roughness Amount"
-                    doc = "Higher roughness values lead to more blurry reflections"
+                    displayName = "Index of Refraction"
+                    doc = "Index of Refraction of the material"
                     hidden = false
-                )
-                asset inputs:reflectionroughness_texture = @./textures/Arch/5059712BFCE033AE-Roughness.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Roughness Map"
-                    hidden = false
-                    renderType = "texture_2d"
                 )
             }
+        }
+    }
+}
+
+def Scope "Looks"
+{
+    def Material "AperturePBR_Translucent"
+    {
+        token outputs:mdl:displacement.connect = </Looks/AperturePBR_Translucent/Shader.outputs:out>
+        token outputs:mdl:surface.connect = </Looks/AperturePBR_Translucent/Shader.outputs:out>
+        token outputs:mdl:volume.connect = </Looks/AperturePBR_Translucent/Shader.outputs:out>
+
+        def Shader "Shader"
+        {
+            uniform token info:implementationSource = "sourceAsset"
+            uniform asset info:mdl:sourceAsset = @../../captures/materials/AperturePBR_Translucent.mdl@
+            uniform token info:mdl:sourceAsset:subIdentifier = "AperturePBR_Translucent"
+            token outputs:out (
+                renderType = "material"
+            )
+        }
+    }
+
+    def Material "mat_AperturePBR_Translucent"
+    {
+        token outputs:mdl:displacement.connect = </Looks/mat_AperturePBR_Translucent/Shader.outputs:out>
+        token outputs:mdl:surface.connect = </Looks/mat_AperturePBR_Translucent/Shader.outputs:out>
+        token outputs:mdl:volume.connect = </Looks/mat_AperturePBR_Translucent/Shader.outputs:out>
+
+        def Shader "Shader" (
+            kind = "Material"
+        )
+        {
+            uniform token info:implementationSource = "sourceAsset"
+            uniform asset info:mdl:sourceAsset = @./mats/AperturePBR_Translucent.mdl@
+            uniform token info:mdl:sourceAsset:subIdentifier = "AperturePBR_Translucent"
+            float inputs:ior_constant = 1.3 (
+                customData = {
+                    float default = 1.3
+                    dictionary range = {
+                        float max = 3
+                        float min = 1
+                    }
+                }
+                displayGroup = "Specular"
+                displayName = "Index of Refraction"
+                doc = "Index of Refraction of the material"
+                hidden = false
+            )
+            bool inputs:thin_walled = 1 (
+                customData = {
+                    bool default = 0
+                }
+                displayGroup = "Specular"
+                displayName = "Thin-walled"
+                doc = "Whether the material is thin-walled"
+                hidden = false
+            )
+            token outputs:out
         }
     }
 }
