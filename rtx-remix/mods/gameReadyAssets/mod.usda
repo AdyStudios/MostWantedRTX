@@ -1434,6 +1434,237 @@ over "RootNode"
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
         }
+
+        over "mesh_ACB5AC0744177C64"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def DistantLight "DistantLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float inputs:angle = 1
+                float inputs:colorTemperature = 4000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0.3
+                float inputs:intensity = 1
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-180, 9.600000143051147, 67.40000100433826)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+    }
+
+    over "instances"
+    {
+        over "inst_42E12BC7C515B742_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_B1A022BE3B313BFC_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_D16F710281E305AD_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_09A59EACE2AE3A13_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_FDAA94C41663B1FF_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_F132C87735FE8E23_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_E721631C9DEE90B4_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_6F898540DA2DBD90_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_19B4931808BD2643_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_F819F68C24BCCF6D_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+    }
+
+    over "Looks"
+    {
+        over "mat_FCD7CEAF234D3522"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/FCD7CEAF234D3522.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_0AD8EBB518E9E037"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Arch/Concrete/Concrete032_4K_Color.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Arch/Concrete/Concrete032_4K_NormalDX.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Arch/Concrete/Concrete032_4K_Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_5059712BFCE033AE"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Arch/5059712BFCE033AE-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Arch/5059712BFCE033AE-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                float inputs:reflection_roughness_constant = 0.96999997 (
+                    customData = {
+                        float default = 0.5
+                        dictionary range = {
+                            float max = 1
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Amount"
+                    doc = "Higher roughness values lead to more blurry reflections"
+                    hidden = false
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Arch/5059712BFCE033AE-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
     }
 }
 
