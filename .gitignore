@@ -54,3 +54,5 @@ speed.exe.BinExport
 ThirdPartyLicenses-bridge.txt
 
 ThirdPartyLicenses-dxvk.txt
+
+*.png
