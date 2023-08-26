@@ -1122,448 +1122,316 @@ over "RootNode"
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
         }
-    }
 
-    over "Looks"
-    {
-        over "mat_B4890596D1F21117"
+        over "mesh_7B775283A618152B"
         {
-            over "Shader"
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "DoubleCobra" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
             {
-                asset inputs:diffuse_texture = @./textures/B4890596D1F21117.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                float opacity_constant = 1 (
-                    customData = {
-                        float default = 1
-                        dictionary range = {
-                            float max = 1
-                            float min = 0
-                        }
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Opacity Amount"
-                    doc = "Used when no albedo texture is specified. 0 for completely transparent, 1 for completly opaque."
-                    hidden = false
-                )
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:intensity = 250
+                float inputs:radius = 0.25
+                float inputs:shaping:cone:angle = 70.8
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-26.600000396370888, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, -3.9000000581145287, 8.600000128149986)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "DoubleCobra_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:intensity = 250
+                float inputs:radius = 0.25
+                float inputs:shaping:cone:angle = 70.8
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (26.6, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 3.9, 8.600000128149986)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
         }
 
-        over "mat_D92D95E919EF5CCD"
+        over "mesh_3EBEC50452B6EAE5"
         {
-            over "Shader"
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "CobraLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
             {
-                bool blend_enabled = 0 (
-                    customData = {
-                        bool default = 0
-                    }
-                    displayGroup = "Material Flags"
-                    displayName = "Blend Enabled"
-                    doc = "Indicates if alpha state blending should be enabled."
-                    hidden = false
-                )
-                uniform bool enable_opacity = 1
-                bool excludeFromWhiteMode = 0 (
-                    customData = {
-                        bool default = 0
-                    }
-                    displayGroup = "Material Flags"
-                    displayName = "Exclude from White Mode"
-                    hidden = false
-                )
-                bool ignore_material = 1 (
-                    customData = {
-                        bool default = 0
-                    }
-                    displayGroup = "Material Flags"
-                    displayName = "Ignore Material"
-                    doc = "Runtime will not render any objects using an ignored material.  RTX Remix will render with a pink and black checkerboard."
-                    hidden = false
-                )
-                asset inputs:diffuse_texture = @./textures/D92D95E919EF5CCD.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:intensity = 150
+                float inputs:radius = 0.25
+                float inputs:shaping:cone:angle = 86.5
+                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-12.800000190734863, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, -6.000000089406967, 12.600000187754631)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
         }
 
-        over "mat_CE710F82EEF8914B"
+        over "mesh_17A1D8E6B5928265"
         {
-            over "Shader"
-            {
-                bool ignore_material = 1 (
-                    customData = {
-                        bool default = 0
-                    }
-                    displayGroup = "Material Flags"
-                    displayName = "Ignore Material"
-                    doc = "Runtime will not render any objects using an ignored material.  RTX Remix will render with a pink and black checkerboard."
-                    hidden = false
-                )
-                asset inputs:diffuse_texture = @./textures/CE710F82EEF8914B.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-            }
+            custom int preserveOriginalDrawCall = 1
         }
 
-        over "mat_DE14B914E3B3477E"
+        over "mesh_CB82625AADA235C4"
         {
-            over "Shader"
-            {
-                asset inputs:diffuse_texture = @./textures/cars/Car.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                float inputs:metallic_constant = 0.28 (
-                    customData = {
-                        float default = 0
-                        dictionary range = {
-                            float max = 1
-                            float min = 0
-                        }
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Metallic Amount"
-                    doc = "Metallic Material"
-                    hidden = false
-                )
-                float inputs:reflection_roughness_constant = 0.08 (
-                    customData = {
-                        float default = 0.5
-                        dictionary range = {
-                            float max = 1
-                            float min = 0
-                        }
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Roughness Amount"
-                    doc = "Higher roughness values lead to more blurry reflections"
-                    hidden = false
-                )
-            }
-        }
+            custom int preserveOriginalDrawCall = 1
+            token visibility = "inherited"
 
-        over "mat_F4689BAB1BB35A21"
-        {
-            over "Shader"
+            def RectLight "TunnelLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
             {
-                asset inputs:diffuse_texture = @./textures/F4689BAB1BB35A21.dds@ (
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                color3f inputs:color = (0.8146718, 1, 0.83470714)
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:height = 3.9
+                float inputs:intensity = 150
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.5
+                double3 xformOp:rotateXYZ = (-0.1567314095098311, -53.67732332687925, 102.88983908643621)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1519.4374836272775, 491.1550558042292, 93.22367744506202)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
-        }
 
-        over "mat_6F049B90590115BF"
-        {
-            over "Shader"
+            def RectLight "TunnelLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
             {
-                asset inputs:diffuse_texture = @./textures/Concrete/Concrete019_2K_Color-Base.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:normalmap_texture = @./textures/Concrete/Concrete019_2K_Color-Normal.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Normal"
-                    displayName = "Normal Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:reflectionroughness_texture = @./textures/Concrete/Concrete019_2K_Color-Roughness.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Roughness Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                color3f inputs:color = (0.8146718, 1, 0.83470714)
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:height = 3.9
+                float inputs:intensity = 150
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.5
+                double3 xformOp:rotateXYZ = (-0.11793683568259894, -38.07765830625641, 102.836296560986)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1509.5136270420076, 488.7866457663371, 93.293476649047)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
-        }
 
-        over "mat_A237C1A2A1194B2E"
-        {
-            over "Shader"
+            def RectLight "TunnelLight_02" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
             {
-                asset inputs:diffuse_texture = @./textures/A237C1A2A1194B2E.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                float inputs:opacity_constant = 1 (
-                    customData = {
-                        float default = 1
-                        dictionary range = {
-                            float max = 1
-                            float min = 0
-                        }
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Opacity Amount"
-                    doc = "Used when no albedo texture is specified. 0 for completely transparent, 1 for completly opaque."
-                    hidden = false
-                )
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                color3f inputs:color = (0.8146718, 1, 0.83470714)
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:height = 3.9
+                float inputs:intensity = 150
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.5
+                double3 xformOp:rotateXYZ = (-1.762674495843811, -37.61922631288735, 102.06629212250516)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1499.0984817959484, 486.57117886507865, 93.1382351014125)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
-        }
 
-        over "mat_44F3F6EE0E453505"
-        {
-            over "Shader"
+            def RectLight "TunnelLight_03" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
             {
-                asset inputs:diffuse_texture = @./textures/Wood/PaintedWood005_2K_Color.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                int inputs:encoding = 0 (
-                    customData = {
-                        int default = 0
-                    }
-                    displayGroup = "Normal"
-                    displayName = "Normal Map Encoding"
-                    doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
-                    hidden = false
-                    renderType = "normalmap_encoding"
-                    sdrMetadata = {
-                        string __SDR__enum_value = "octahedral"
-                        string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
-                    }
-                )
-                asset inputs:normalmap_texture = @./textures/Wood/PaintedWood005_2K_NormalDX.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Normal"
-                    displayName = "Normal Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:reflectionroughness_texture = @./textures/Wood/PaintedWood005_2K_Displacement.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Roughness Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                color3f inputs:color = (0.8146718, 1, 0.83470714)
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:height = 3.9
+                float inputs:intensity = 150
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.5
+                double3 xformOp:rotateXYZ = (-1.7626744958409688, -37.61922631288738, 102.06629212250567)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1488.6669963011184, 484.57829094010975, 92.67385570384987)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
-        }
 
-        over "mat_D642645697B458D2"
-        {
-            over "Shader"
+            def RectLight "TunnelLight_04" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
             {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                color3f inputs:color = (0.8146718, 1, 0.83470714)
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:height = 3.9
+                float inputs:intensity = 150
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.5
+                double3 xformOp:rotateXYZ = (-2.7106176549136762, -39.370009233360264, 99.15984497855698)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1478.0929201985039, 483.2229933861488, 92.34294023594343)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
-        }
 
-        over "mat_6C4693D1C2F5F45B"
-        {
-            over "Shader"
+            def RectLight "TunnelLight_05" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
             {
-                asset inputs:diffuse_texture = @./textures/6C4693D1C2F5F45B.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                color3f inputs:color = (0.8146718, 1, 0.83470714)
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:height = 3.9
+                float inputs:intensity = 150
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.5
+                double3 xformOp:rotateXYZ = (-0.09029899958639476, 37.612528695207544, 95.82450038989191)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1475.2762649566894, 506.93831302358313, 92.55508221797056)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
-        }
 
-        over "mat_0C2C55BF7CF9A9C5"
-        {
-            over "Shader"
+            def RectLight "TunnelLight_06" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
             {
-                asset inputs:diffuse_texture = @./textures/0C2C55BF7CF9A9C5.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                color3f inputs:color = (0.8146718, 1, 0.83470714)
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:height = 3.9
+                float inputs:intensity = 150
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.5
+                double3 xformOp:rotateXYZ = (-0.09029899958639476, 37.612528695207544, 95.82450038989191)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1484.8621183100713, 507.94990082829065, 92.54839016601775)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
-        }
 
-        over "mat_C3B427DB966ADD21"
-        {
-            over "Shader"
+            def RectLight "TunnelLight_07" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
             {
-                asset inputs:diffuse_texture = @./textures/Arch/Concrete/Concrete032_4K_Color.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:normalmap_texture = @./textures/Arch/Concrete/Concrete032_4K_NormalDX.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Normal"
-                    displayName = "Normal Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:reflectionroughness_texture = @./textures/Arch/Concrete/Concrete032_4K_Roughness.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Roughness Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                color3f inputs:color = (0.8146718, 1, 0.83470714)
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:height = 3.9
+                float inputs:intensity = 150
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.5
+                double3 xformOp:rotateXYZ = (-2.524509066161727, 37.75754929358962, 100.13802894095272)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1494.522788677881, 509.88341902443636, 92.67448928015904)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
-        }
 
-        over "mat_25D3CAF0AC8CEE5F"
-        {
-            over "Shader"
+            def RectLight "TunnelLight_08" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
             {
-                asset inputs:diffuse_texture = @./textures/cars/Car.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                float inputs:metallic_constant = 0.39999998 (
-                    customData = {
-                        float default = 0
-                        dictionary range = {
-                            float max = 1
-                            float min = 0
-                        }
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Metallic Amount"
-                    doc = "Metallic Material"
-                    hidden = false
-                )
-                float inputs:reflection_roughness_constant = 0.25 (
-                    customData = {
-                        float default = 0.5
-                        dictionary range = {
-                            float max = 1
-                            float min = 0
-                        }
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Roughness Amount"
-                    doc = "Higher roughness values lead to more blurry reflections"
-                    hidden = false
-                )
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                color3f inputs:color = (0.8146718, 1, 0.83470714)
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:height = 3.9
+                float inputs:intensity = 150
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.5
+                double3 xformOp:rotateXYZ = (-1.2619411142994466, 37.75754929358965, 100.13802894095278)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1504.2245654813375, 511.8931158732567, 92.94907946133377)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
-        }
 
-        over "mat_56B039F61472A7EC"
-        {
-            over "Shader"
+            def RectLight "TunnelLight_09" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
             {
-                asset inputs:diffuse_texture = @./textures/Arch/Steel Walls/CorrugatedSteel007A_4K_Color.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:metallic_texture = @./textures/Arch/Steel Walls/CorrugatedSteel007A_4K_Metalness.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Metallic Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:normalmap_texture = @./textures/Arch/Steel Walls/CorrugatedSteel007A_4K_NormalDX.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Normal"
-                    displayName = "Normal Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:reflectionroughness_texture = @./textures/Arch/Steel Walls/CorrugatedSteel007A_4K_Roughness.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Roughness Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                color3f inputs:color = (0.8146718, 1, 0.83470714)
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:height = 3.9
+                float inputs:intensity = 150
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.5
+                double3 xformOp:rotateXYZ = (-1.756866597711877, 35.013002280343045, 100.24446836650225)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1514.1593778797026, 514.3513806777122, 93.01125316626533)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
         }
     }
