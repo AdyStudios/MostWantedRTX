@@ -60,3 +60,7 @@ ThirdPartyLicenses-dxvk.txt
 *.bak
 
 *.exr
+
+rtx-remix/TESTING/
+
+rtx-remix/Textures Import/
