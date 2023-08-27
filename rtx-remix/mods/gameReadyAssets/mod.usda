@@ -283,7 +283,7 @@ over "RootNode"
         {
             over "Shader"
             {
-                asset inputs:diffuse_texture = @./textures/Roads/Asphalt026C_4K_Color.dds@ (
+                asset inputs:diffuse_texture = @./textures/Roads/Asphalt027C_2K_Color.dds@ (
                     customData = {
                         asset default = @@
                     }
@@ -293,7 +293,7 @@ over "RootNode"
                     hidden = false
                     renderType = "texture_2d"
                 )
-                asset inputs:normalmap_texture = @./textures/Roads/Asphalt026C_4K_NormalDX.dds@ (
+                asset inputs:normalmap_texture = @./textures/Roads/Asphalt027C_2K_NormalDX.dds@ (
                     colorSpace = "auto"
                     customData = {
                         asset default = @@
@@ -303,7 +303,7 @@ over "RootNode"
                     hidden = false
                     renderType = "texture_2d"
                 )
-                asset inputs:reflectionroughness_texture = @./textures/Roads/Asphalt026C_4K_Roughness.dds@ (
+                asset inputs:reflectionroughness_texture = @./textures/Roads/Asphalt027C_2K_Roughness.dds@ (
                     colorSpace = "auto"
                     customData = {
                         asset default = @@
@@ -333,9 +333,20 @@ over "RootNode"
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
 
-            over "mesh"
+            over "mesh" (
+                active = false
+            )
             {
                 token visibility = "invisible"
+            }
+
+            over "MainMenuSun"
+            {
+                float inputs:angle = 8.2
+                float inputs:colorTemperature = 6000
+                float inputs:exposure = 0.2
+                float inputs:intensity = 1.8000001
+                double3 xformOp:rotateXYZ = (-174.4000025987625, -34.20000050961971, 80.40000119805336)
             }
         }
     }
