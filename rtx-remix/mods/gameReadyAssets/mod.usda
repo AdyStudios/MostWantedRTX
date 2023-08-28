@@ -369,6 +369,51 @@ over "RootNode"
             {
             }
         }
+
+        over "inst_E5BD291E396FE4CE_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_1043FD97C9D443B5_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_B5875575DDB933DF_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_68122ACBA3FB2418_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_DC2C919244EEA8B1_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
     }
 
     over "Looks"
@@ -1102,6 +1147,55 @@ over "RootNode"
         over "mesh_7839C6EF8AFF5511"
         {
             custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_8465F8B75622290B"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "CobraLight_2" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:exposure = 0
+                float inputs:intensity = 500
+                float inputs:radius = 0.3
+                float inputs:shaping:cone:angle = 73
+                float inputs:shaping:cone:softness = 0.4
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 5.600000083446503, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, -6.000000089406967, 9.700000144541264)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_76F37F9C0347361D"
+        {
+            def RectLight "WrapLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:height = 6.9
+                float inputs:intensity = 98
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 0.7
+                double3 xformOp:rotateXYZ = (0, -68.2000010162592, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0.20000000298023224, 0.10000000149011612)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
         }
     }
 }
