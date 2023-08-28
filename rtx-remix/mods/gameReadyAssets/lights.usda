@@ -1175,10 +1175,10 @@ over "RootNode"
                 float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
                 float inputs:colorTemperature = 5000
                 bool inputs:enableColorTemperature = 1
-                float inputs:exposure = 0
+                float inputs:exposure = 4.2000003
                 float inputs:intensity = 150
                 float inputs:radius = 0.25
-                float inputs:shaping:cone:angle = 86.5
+                float inputs:shaping:cone:angle = 45.3
                 float inputs:shaping:cone:softness = 0.2
                 float inputs:shaping:focus
                 color3f inputs:shaping:focusTint
@@ -1499,25 +1499,43 @@ over "RootNode"
         over "mesh_681926CD80CD9909"
         {
             custom int preserveOriginalDrawCall = 1
+            token visibility = "invisible"
 
             def DistantLight "MainMenuSun" (
                 prepend apiSchemas = ["ShapingAPI"]
             )
             {
-                float inputs:angle = 37.600002
+                float inputs:angle = 8.2
                 float inputs:colorTemperature = 6000
                 bool inputs:enableColorTemperature = 1
-                float inputs:exposure = 0
-                float inputs:intensity = 3.1000001
+                float inputs:exposure = 0.2
+                float inputs:intensity = 1.8000001
                 float inputs:shaping:cone:angle = 180
                 float inputs:shaping:cone:softness
                 float inputs:shaping:focus
                 color3f inputs:shaping:focusTint
                 asset inputs:shaping:ies:file
-                double3 xformOp:rotateXYZ = (-180, -29.60000044107437, 107.90000160783529)
+                double3 xformOp:rotateXYZ = (-174.4000025987625, -34.20000050961971, 80.40000119805336)
                 double3 xformOp:scale = (1, 1, 1)
                 double3 xformOp:translate = (0, 0, 0)
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def Xform "Xform_681926CD80CD9909_0" (
+                prepend references = @./meshes/MainMenu_Pavement.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+                token visibility = "invisible"
             }
         }
 
