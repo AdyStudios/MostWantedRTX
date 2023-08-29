@@ -10,412 +10,6 @@
 
 over "RootNode"
 {
-    over "instances"
-    {
-        over "inst_42E12BC7C515B742_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_B1A022BE3B313BFC_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_D16F710281E305AD_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_09A59EACE2AE3A13_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_FDAA94C41663B1FF_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_F132C87735FE8E23_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_E721631C9DEE90B4_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_6F898540DA2DBD90_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_19B4931808BD2643_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_F819F68C24BCCF6D_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_ACB5AC0744177C64_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_DA53BC0AAA5AAE0B_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_8141A8BB7AE2BA19_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_71BD143C878C7E7B_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_7955525926AF32A8_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_8E4A56DDCAED561C_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_58ADF2B28D5650E9_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_BC6B78EAF2139129_1"
-        {
-            over "mesh" (
-                prepend apiSchemas = ["MaterialBindingAPI"]
-            )
-            {
-                rel material:binding = None (
-                    bindMaterialAs = "weakerThanDescendants"
-                )
-            }
-        }
-
-        over "inst_EAC57847E62643B6_1"
-        {
-            over "mesh"
-            {
-                float3 xformOp:rotateXYZ = (0, 0, 0)
-                float3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-            }
-        }
-
-        over "inst_17B339A10EDC9682_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_2C51E9104B71EAC5_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_EAC57847E62643B6_0"
-        {
-            over "mesh"
-            {
-                float3 xformOp:rotateXYZ = (0, 0, 0)
-                float3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-            }
-        }
-
-        over "inst_985F5B5AE83C004A_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_53D2104021DEFEAD_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_2971ABB8C8A6D2C9_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_79709AABDD4FFB50_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_AFDB69D4EE12BEE9_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_D416A38290F090FB_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_1801C09764A6F8D9_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_29577439437E3E6E_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_6D954D3D14AB7B86_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_7839C6EF8AFF5511_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_8A900BE49C10E702_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_BCC3576AFE23E2E7_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_94468480C3AFE213_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_61B3B25BCCB82FAF_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_C36FF0B34FCB13F3_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_2358318877F15502_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_B5E5E7D0BB32388C_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_E5BD291E396FE4CE_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_1043FD97C9D443B5_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_B5875575DDB933DF_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_68122ACBA3FB2418_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-
-        over "inst_DC2C919244EEA8B1_0"
-        {
-            over "mesh" (
-                active = false
-            )
-            {
-            }
-        }
-    }
-
     over "Looks"
     {
         over "mat_A5CA5B76300E4744" (
@@ -1090,6 +684,126 @@ over "RootNode"
                 )
             }
         }
+
+        over "mat_7A1A6EE64B3A12EF"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/cars/7A1A6EE64B3A12EF-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                float inputs:emissive_intensity = 2 (
+                    customData = {
+                        float default = 40
+                        dictionary range = {
+                            float max = 65504
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Emissive Intensity"
+                    doc = "Intensity of the emission"
+                    hidden = false
+                )
+                asset inputs:emissive_mask_texture = @./textures/cars/7A1A6EE64B3A12EF-Emissive.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Emissive Mask Map"
+                    doc = "The texture masking the emissive color"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                bool inputs:enable_emission = 1 (
+                    customData = {
+                        bool default = 0
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Enable Emission"
+                    doc = "Enables the emission of light from the material"
+                    hidden = false
+                )
+                asset inputs:normalmap_texture = @./textures/cars/7A1A6EE64B3A12EF-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_93F3D8D873C6A2A1"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Props/93F3D8D873C6A2A1-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                float inputs:emissive_intensity = 3 (
+                    customData = {
+                        float default = 40
+                        dictionary range = {
+                            float max = 65504
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Emissive Intensity"
+                    doc = "Intensity of the emission"
+                    hidden = false
+                )
+                asset inputs:emissive_mask_texture = @./textures/Props/93F3D8D873C6A2A1-Emissive.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Emissive Mask Map"
+                    doc = "The texture masking the emissive color"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                bool inputs:enable_emission = 1 (
+                    customData = {
+                        bool default = 0
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Enable Emission"
+                    doc = "Enables the emission of light from the material"
+                    hidden = false
+                )
+                asset inputs:normalmap_texture = @./textures/Props/93F3D8D873C6A2A1-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
     }
 
     over "meshes"
@@ -1197,6 +911,524 @@ over "RootNode"
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
         }
+
+        over "mesh_2C026CD1A1F246EC"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "M3HeadLightRight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 7500
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 10.900001
+                float inputs:intensity = 500
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 47.4
+                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, -53, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (2.6, -0.57, 0.5)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "M3HeadLightLeft" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 7500
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 10.900001
+                float inputs:intensity = 500
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 47.4
+                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, -45, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (2.6, 0.57, 0.5)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_88CE67E29BA2FB7D"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "M3PlateLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 4500
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0.7
+                float inputs:intensity = 174.2
+                float inputs:radius = 0.01
+                float inputs:shaping:cone:angle = 81.8
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-2.0000000298023224, -0.10000000149011612, 0.72)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "M3PlateLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 4500
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0.7
+                float inputs:intensity = 174.2
+                float inputs:radius = 0.01
+                float inputs:shaping:cone:angle = 81.8
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-2.0000000298023224, 0.10000000149011612, 0.72)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_4CBF290FA0F08B3A"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 2700
+                bool inputs:enableColorTemperature = 1
+                float inputs:intensity = 351
+                float inputs:radius = 0.4
+                float inputs:shaping:cone:angle = 91.700005
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, -1.3000000193715096)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_7826CD56A98D0E50"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "CobraHeadLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 7.4
+                float inputs:intensity = 289.6
+                float inputs:radius = 0.09
+                float inputs:shaping:cone:angle = 63.4
+                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-13.800000205636024, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, -2.8000000417232513, 8.200000122189522)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_BE0372587D1551E1"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def Xform "Xform_mesh_0" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 22.47219978962491)
+                double3 xformOp:scale = (0.001, 0.001, 0.001)
+                double3 xformOp:translate = (2074.8081460815947, -190.96480727351397, 112.47189850721482)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_1" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    def RectLight "RectLight" (
+                        prepend apiSchemas = ["ShapingAPI"]
+                    )
+                    {
+                        float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                        float inputs:colorTemperature = 4000
+                        bool inputs:enableColorTemperature = 1
+                        float inputs:exposure = 14.6
+                        float inputs:height = 33.4
+                        float inputs:intensity = 31.9
+                        float inputs:shaping:cone:angle = 180
+                        float inputs:shaping:cone:softness
+                        float inputs:shaping:focus
+                        color3f inputs:shaping:focusTint
+                        asset inputs:shaping:ies:file
+                        float inputs:width = 1.6
+                        double3 xformOp:rotateXYZ = (0, 0, 90)
+                        double3 xformOp:scale = (1, 1, 1)
+                        double3 xformOp:translate = (-1.073349267244339e-7, -16.930447958409786, -108.29742302320665)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                    }
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                float inputs:emissive_intensity = 4 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+
+            def Xform "Xform_mesh_01" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 22.47219978962491)
+                double3 xformOp:scale = (0.001, 0.001, 0.001)
+                double3 xformOp:translate = (2072.411652019014, -191.9561055951744, 112.4718985072234)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_1" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    def RectLight "RectLight" (
+                        prepend apiSchemas = ["ShapingAPI"]
+                    )
+                    {
+                        float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                        float inputs:colorTemperature = 4000
+                        bool inputs:enableColorTemperature = 1
+                        float inputs:exposure = 14.6
+                        float inputs:height = 33.4
+                        float inputs:intensity = 31.9
+                        float inputs:shaping:cone:angle = 180
+                        float inputs:shaping:cone:softness
+                        float inputs:shaping:focus
+                        color3f inputs:shaping:focusTint
+                        asset inputs:shaping:ies:file
+                        float inputs:width = 1.6
+                        double3 xformOp:rotateXYZ = (0, 0, 90)
+                        double3 xformOp:scale = (1, 1, 1)
+                        double3 xformOp:translate = (-1.073349267244339e-7, -16.930447958409786, -108.29742302320665)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                    }
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                float inputs:emissive_intensity = 4 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+
+            def Xform "Xform_mesh_02" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 22.47219978962491)
+                double3 xformOp:scale = (0.001, 0.001, 0.001)
+                double3 xformOp:translate = (2069.623441303546, -193.10943563921805, 112.47189850723628)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_1" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    def RectLight "RectLight" (
+                        prepend apiSchemas = ["ShapingAPI"]
+                    )
+                    {
+                        float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                        float inputs:colorTemperature = 4000
+                        bool inputs:enableColorTemperature = 1
+                        float inputs:exposure = 14.6
+                        float inputs:height = 33.4
+                        float inputs:intensity = 31.9
+                        float inputs:shaping:cone:angle = 180
+                        float inputs:shaping:cone:softness
+                        float inputs:shaping:focus
+                        color3f inputs:shaping:focusTint
+                        asset inputs:shaping:ies:file
+                        float inputs:width = 1.6
+                        double3 xformOp:rotateXYZ = (0, 0, 90)
+                        double3 xformOp:scale = (1, 1, 1)
+                        double3 xformOp:translate = (-1.073349267244339e-7, -16.930447958409786, -108.29742302320665)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                    }
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                float inputs:emissive_intensity = 4 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+
+            def Xform "Xform_mesh_03" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 22.47219978962491)
+                double3 xformOp:scale = (0.001, 0.001, 0.001)
+                double3 xformOp:translate = (2066.8564567779213, -194.25398557117956, 112.47189850723372)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_1" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    def RectLight "RectLight" (
+                        prepend apiSchemas = ["ShapingAPI"]
+                    )
+                    {
+                        float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                        float inputs:colorTemperature = 4000
+                        bool inputs:enableColorTemperature = 1
+                        float inputs:exposure = 14.6
+                        float inputs:height = 33.4
+                        float inputs:intensity = 31.9
+                        float inputs:shaping:cone:angle = 180
+                        float inputs:shaping:cone:softness
+                        float inputs:shaping:focus
+                        color3f inputs:shaping:focusTint
+                        asset inputs:shaping:ies:file
+                        float inputs:width = 1.6
+                        double3 xformOp:rotateXYZ = (0, 0, 90)
+                        double3 xformOp:scale = (1, 1, 1)
+                        double3 xformOp:translate = (-1.073349267244339e-7, -16.930447958409786, -108.29742302320665)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                    }
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                float inputs:emissive_intensity = 4 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_0D58AFC9C914F4C8"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def RectLight "SurfaceMntStrip" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                float inputs:colorTemperature = 4500
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:height = 1
+                float inputs:intensity = 44.4
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 8.900001
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, -0.30000000447034836)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_04DF32F622C92CD9"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "SphereLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 2700
+                bool inputs:enableColorTemperature = 1
+                float inputs:intensity = 351
+                float inputs:radius = 0.4
+                float inputs:shaping:cone:angle = 91.700005
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, -1.0000000149011612)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_04BD7732962A6720"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "DoubleHeadPole" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 4000
+                bool inputs:enableColorTemperature = 1
+                float inputs:intensity = 200
+                float inputs:radius = 0.2
+                float inputs:shaping:cone:angle = 74.3
+                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, -19.80000029504299, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.800000011920929, 0, 8.300000123679638)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "DoubleHeadPole_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 4000
+                bool inputs:enableColorTemperature = 1
+                float inputs:intensity = 200
+                float inputs:radius = 0.2
+                float inputs:shaping:cone:angle = 74.3
+                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-20.000000298023224, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, -0.7000000104308128, 8.300000123679638)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_3A48DA88DF0E979E"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "CurvedDoublePole" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 4500
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:intensity = 283.4
+                float inputs:radius = 0.5
+                float inputs:shaping:cone:angle = 77.9
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, -3.9000000581145287, 10.000000149011612)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "CurvedDoublePole_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 4500
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:intensity = 283.4
+                float inputs:radius = 0.5
+                float inputs:shaping:cone:angle = 77.9
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 3.9, 10.000000149011612)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
     }
 }
 
@@ -1257,5 +1489,9 @@ def Scope "Looks"
             token outputs:out
         }
     }
+}
+
+def "Viewport_Waypoints"
+{
 }
 
