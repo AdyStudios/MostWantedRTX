@@ -91,80 +91,6 @@ over "RootNode"
             }
         }
 
-        over "mat_F8D68EA08994EB7D"
-        {
-            over "Shader"
-            {
-                asset inputs:diffuse_texture = @./textures/Roads/Asphalt027C_2K_Color.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:normalmap_texture = @./textures/Roads/Asphalt027C_2K_NormalDX.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Normal"
-                    displayName = "Normal Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:reflectionroughness_texture = @./textures/Roads/Asphalt027C_2K_Roughness.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Roughness Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-            }
-        }
-
-        over "mat_32F197D70992268B"
-        {
-            over "Shader"
-            {
-                asset inputs:diffuse_texture = @./textures/Arch/Brick/Bricks082C_2K_Color.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:normalmap_texture = @./textures/Arch/Brick/Bricks082C_2K_NormalDX.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Normal"
-                    displayName = "Normal Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:reflectionroughness_texture = @./textures/Arch/Brick/Bricks082C_2K_Roughness.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Roughness Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-            }
-        }
-
         over "mat_5F240D1FFA80D8D6"
         {
             over "Shader"
@@ -804,6 +730,1081 @@ over "RootNode"
                 )
             }
         }
+
+        over "mat_F4EF012F20DA0C21"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Roads/F4EF012F20DA0C21-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Roads/F4EF012F20DA0C21-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Roads/F4EF012F20DA0C21-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_BDDFF5C57A586024"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Roads/BDDFF5C57A586024-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Roads/BDDFF5C57A586024-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Roads/BDDFF5C57A586024-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_F7697D0F720FEDB7"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Roads/F7697D0F720FEDB7-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Roads/F7697D0F720FEDB7-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Roads/F7697D0F720FEDB7-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_CCDA8565D4A48BF2"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Roads/CCDA8565D4A48BF2-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Roads/CCDA8565D4A48BF2-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Roads/CCDA8565D4A48BF2-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_223556E5276D496D"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Roads/223556E5276D496D-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Roads/223556E5276D496D-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Roads/223556E5276D496D-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_EE9AF05ED99D7819"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Roads/EE9AF05ED99D7819-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Roads/EE9AF05ED99D7819-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Roads/EE9AF05ED99D7819-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_643ECFA459358F7E"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Roads/643ECFA459358F7E-Base.dds@
+                asset inputs:normalmap_texture = @./textures/Roads/643ECFA459358F7E-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Roads/643ECFA459358F7E-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_9E36571AD0B38A84"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Roads/9E36571AD0B38A84-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Roads/9E36571AD0B38A84-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Roads/9E36571AD0B38A84-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_A4F85795B37233AB"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Arch/Concrete/A4F85795B37233AB-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:emissive_mask_texture = @./textures/Arch/Concrete/A4F85795B37233AB-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Emissive Mask Map"
+                    doc = "The texture masking the emissive color"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Arch/Concrete/A4F85795B37233AB-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_F8D68EA08994EB7D"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/MainMenu/F8D68EA08994EB7D-Base.dds@
+                asset inputs:normalmap_texture = @./textures/Garages/MainMenu/F8D68EA08994EB7D-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/MainMenu/F8D68EA08994EB7D-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_1402AFC5DBE807F2"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/MainMenu/1402AFC5DBE807F2-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/MainMenu/1402AFC5DBE807F2-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/MainMenu/1402AFC5DBE807F2-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_32F197D70992268B"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/MainMenu/32F197D70992268B-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/MainMenu/32F197D70992268B-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/MainMenu/32F197D70992268B-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_F42B9478801AEC3E"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/MainMenu/F42B9478801AEC3E-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/MainMenu/F42B9478801AEC3E-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/MainMenu/F42B9478801AEC3E-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_3B05F51EB5DE2608"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/MainMenu/3B05F51EB5DE2608-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/MainMenu/3B05F51EB5DE2608-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/MainMenu/3B05F51EB5DE2608-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_C88E07EBC00A7B43"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/MainMenu/C88E07EBC00A7B43-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/MainMenu/C88E07EBC00A7B43-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/MainMenu/C88E07EBC00A7B43-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_AA73A7CEB04E7026"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/MainMenu/AA73A7CEB04E7026-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:metallic_texture = @./textures/Garages/MainMenu/AA73A7CEB04E7026-Metallic.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Metallic Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/MainMenu/AA73A7CEB04E7026-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/MainMenu/AA73A7CEB04E7026-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_221EC6219618B526"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/MainMenu/221EC6219618B526-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/MainMenu/221EC6219618B526-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/MainMenu/221EC6219618B526-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_5A308B18724DC2BE"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/MainMenu/5A308B18724DC2BE-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                float inputs:emissive_intensity = 65.504 (
+                    customData = {
+                        float default = 40
+                        dictionary range = {
+                            float max = 65504
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Emissive Intensity"
+                    doc = "Intensity of the emission"
+                    hidden = false
+                )
+                asset inputs:emissive_mask_texture = @./textures/Garages/MainMenu/5A308B18724DC2BE-Emissive.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Emissive Mask Map"
+                    doc = "The texture masking the emissive color"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                bool inputs:enable_emission = 1 (
+                    customData = {
+                        bool default = 0
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Enable Emission"
+                    doc = "Enables the emission of light from the material"
+                    hidden = false
+                )
+                asset inputs:metallic_texture = @./textures/Garages/MainMenu/5A308B18724DC2BE-Metallic.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Metallic Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/MainMenu/5A308B18724DC2BE-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/MainMenu/5A308B18724DC2BE-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_0AD8EBB518E9E037"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/CareerGarage/0AD8EBB518E9E037-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/CareerGarage/0AD8EBB518E9E037-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/CareerGarage/0AD8EBB518E9E037-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_4AF979DDC292CB81"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/CareerGarage/4AF979DDC292CB81-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/CareerGarage/4AF979DDC292CB81-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/CareerGarage/4AF979DDC292CB81-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_8E276D978581FF0C"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/CareerGarage/8E276D978581FF0C-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:metallic_texture = @./textures/Garages/CareerGarage/8E276D978581FF0C-Metallic.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Metallic Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/CareerGarage/8E276D978581FF0C-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/CareerGarage/8E276D978581FF0C-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_5059712BFCE033AE"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/CareerGarage/5059712BFCE033AE-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/CareerGarage/5059712BFCE033AE-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/CareerGarage/5059712BFCE033AE-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_0D051DA3FC607A51"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/CareerGarage/0D051DA3FC607A51-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/CareerGarage/0D051DA3FC607A51-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/CareerGarage/0D051DA3FC607A51-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_1317A331E033F67A"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/CareerGarage/1317A331E033F67A-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:metallic_texture = @./textures/Garages/CareerGarage/1317A331E033F67A-Metallic.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Metallic Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/CareerGarage/1317A331E033F67A-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/CareerGarage/1317A331E033F67A-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_BDD482FA3E04A83F"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/CareerGarage/BDD482FA3E04A83F-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/CareerGarage/BDD482FA3E04A83F-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/CareerGarage/BDD482FA3E04A83F-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_6F200AD2F9600722"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/CareerGarage/6F200AD2F9600722-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:metallic_texture = @./textures/Garages/CareerGarage/6F200AD2F9600722-Metallic.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Metallic Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/CareerGarage/6F200AD2F9600722-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/CareerGarage/6F200AD2F9600722-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_05A17CFBD18CB383"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Garages/CareerGarage/05A17CFBD18CB383-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:metallic_texture = @./textures/Garages/CareerGarage/05A17CFBD18CB383-Metallic.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Metallic Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Garages/CareerGarage/05A17CFBD18CB383-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Garages/CareerGarage/05A17CFBD18CB383-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
     }
 
     over "meshes"
@@ -1289,28 +2290,6 @@ over "RootNode"
         over "mesh_0D58AFC9C914F4C8"
         {
             custom int preserveOriginalDrawCall = 1
-
-            def RectLight "SurfaceMntStrip" (
-                prepend apiSchemas = ["ShapingAPI"]
-            )
-            {
-                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
-                float inputs:colorTemperature = 4500
-                bool inputs:enableColorTemperature = 1
-                float inputs:exposure = 0
-                float inputs:height = 1
-                float inputs:intensity = 44.4
-                float inputs:shaping:cone:angle = 180
-                float inputs:shaping:cone:softness
-                float inputs:shaping:focus
-                color3f inputs:shaping:focusTint
-                asset inputs:shaping:ies:file
-                float inputs:width = 8.900001
-                double3 xformOp:rotateXYZ = (0, 0, 0)
-                double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, -0.30000000447034836)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-            }
         }
 
         over "mesh_04DF32F622C92CD9"
@@ -1428,6 +2407,1298 @@ over "RootNode"
                 double3 xformOp:translate = (0, 3.9, 10.000000149011612)
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
+        }
+
+        over "mesh_ED3F11D38E7B5ABE"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "BannerPoleLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 8.7
+                float inputs:intensity = 200
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 79.200005
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, -2.8000000417232513, 8.00000011920929)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_5709FF2F177FFFFC"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "BannerPoleLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 5000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 8
+                float inputs:intensity = 200
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 65.700005
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, -2.8000000417232513, 8.200000122189522)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_689A36E40801EAAF"
+        {
+            custom int preserveOriginalDrawCall = 1
+            token visibility = "invisible"
+
+            def SphereLight "LittleItalyCornerBuilding" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:exposure = 6.6
+                float inputs:intensity = 150
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 20.800001
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (182.1524042715397, -2.2737367544323206e-13, 45.79499835691411)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1.565746958418957, -12.491950658879377, 7.289544987730788)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "LittleItalyCornerBuilding_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:exposure = 6.6
+                float inputs:intensity = 150
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 20.800001
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (182.1524042715397, -2.2737367544323206e-13, 45.79499835691411)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (5.0478423688638685, -8.821639345217285, 7.281215020279112)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "LittleItalyCornerBuilding_02" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:exposure = 6.6
+                float inputs:intensity = 150
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 20.800001
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (181.25622862660714, 1.7479197352285496, -8.491663221566114)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-2.306440612428011, -16.272251157158408, 7.294808527336315)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "LittleItalyCornerBuilding_03" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:exposure = 6.6
+                float inputs:intensity = 150
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 20.800001
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (180.05939249434277, 2.1515850757112105, -42.623434688847794)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-1.9020482437699862, -16.161177532119527, 7.286823948520674)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "LittleItalyCornerBuilding_04" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:exposure = 6.6
+                float inputs:intensity = 150
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 20.800001
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-180, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-7.4054664759277165, -15.305615148959069, 7.418980834599353)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "LittleItalyCornerBuilding_05" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:exposure = 6.6
+                float inputs:intensity = 150
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 20.800001
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-180, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-7.672835205774428, -15.177343334322597, 7.418980834599353)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "LittleItalyCornerBuilding_06" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:exposure = 6.6
+                float inputs:intensity = 150
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 20.800001
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-180, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-11.330746006952836, -11.726069855606825, 7.418980834599367)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "LittleItalyCornerBuilding_07" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:exposure = 6.6
+                float inputs:intensity = 150
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 20.800001
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-180, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-14.961463087818622, -8.256323050483847, 7.418980834599355)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "LittleItalyCornerBuilding_08" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:exposure = 6.6
+                float inputs:intensity = 150
+                float inputs:radius = 0.05
+                float inputs:shaping:cone:angle = 20.800001
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-180, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-18.42590037492289, -4.967554930265644, 7.418980834599453)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_045BD125FCC78E75"
+        {
+            custom int preserveOriginalDrawCall = 1
+            token visibility = "inherited"
+
+            def Xform "Xform_mesh_1" (
+                prepend references = @../../../../../Projects/LightingLibrary/Highbay-Frame.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -35.92766064830596)
+                double3 xformOp:scale = (0.5, 0.5, 0.5)
+                double3 xformOp:translate = (1045.9478035989168, -724.884218960042, 117.93360756669694)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @../../../../../Projects/LightingLibrary/Highbay-Lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                def DiskLight "DiskLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:colorTemperature = 4000
+                    bool inputs:enableColorTemperature = 1
+                    float inputs:exposure = 1.3
+                    float inputs:intensity = 500
+                    float inputs:radius = 0.5
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-4.547473508864641e-13, -2.2737367544323206e-13, 0.07886552858451523)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_02" (
+                prepend references = @../../../../../Projects/LightingLibrary/Highbay-Frame.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -35.92766064830596)
+                double3 xformOp:scale = (0.5, 0.5, 0.5)
+                double3 xformOp:translate = (1061.7158294722635, -733.1485579982813, 117.933607566697)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @../../../../../Projects/LightingLibrary/Highbay-Lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                def DiskLight "DiskLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:colorTemperature = 4000
+                    bool inputs:enableColorTemperature = 1
+                    float inputs:exposure = 1.3000001
+                    float inputs:intensity = 500
+                    float inputs:radius = 0.5
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-4.547473508864641e-13, -2.2737367544323206e-13, 0.07886552858451523)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_03" (
+                prepend references = @../../../../../Projects/LightingLibrary/Highbay-Frame.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -35.92766064830596)
+                double3 xformOp:scale = (0.5, 0.5, 0.5)
+                double3 xformOp:translate = (1076.359312543366, -741.1088348290812, 117.93360756669287)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @../../../../../Projects/LightingLibrary/Highbay-Lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                def DiskLight "DiskLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:colorTemperature = 4000
+                    bool inputs:enableColorTemperature = 1
+                    float inputs:exposure = 0.5
+                    float inputs:intensity = 500
+                    float inputs:radius = 0.5
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-4.547473508864641e-13, -2.2737367544323206e-13, 0.07886552858451523)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_04" (
+                prepend references = @../../../../../Projects/LightingLibrary/Highbay-Frame.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -35.92766064830596)
+                double3 xformOp:scale = (0.5, 0.5, 0.5)
+                double3 xformOp:translate = (1092.9097734873494, -756.0902170318736, 117.93360756669027)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @../../../../../Projects/LightingLibrary/Highbay-Lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                def DiskLight "DiskLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:colorTemperature = 4000
+                    bool inputs:enableColorTemperature = 1
+                    float inputs:exposure = 0.5
+                    float inputs:intensity = 500
+                    float inputs:radius = 0.5
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-4.547473508864641e-13, -2.2737367544323206e-13, 0.07886552858451523)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_05" (
+                prepend references = @../../../../../Projects/LightingLibrary/Highbay-Frame.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -35.92766064830596)
+                double3 xformOp:scale = (0.5, 0.5, 0.5)
+                double3 xformOp:translate = (1085.7396711432361, -776.2181196252938, 117.93360756669202)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @../../../../../Projects/LightingLibrary/Highbay-Lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                def DiskLight "DiskLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:colorTemperature = 4000
+                    bool inputs:enableColorTemperature = 1
+                    float inputs:exposure = 0.5
+                    float inputs:intensity = 500
+                    float inputs:radius = 0.5
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-4.547473508864641e-13, -2.2737367544323206e-13, 0.07886552858451523)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_06" (
+                prepend references = @../../../../../Projects/LightingLibrary/Highbay-Frame.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -35.92766064830596)
+                double3 xformOp:scale = (0.5, 0.5, 0.5)
+                double3 xformOp:translate = (1076.525521965144, -792.6717452549551, 117.9336075666915)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @../../../../../Projects/LightingLibrary/Highbay-Lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                def DiskLight "DiskLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:colorTemperature = 4000
+                    bool inputs:enableColorTemperature = 1
+                    float inputs:exposure = 2.4
+                    float inputs:intensity = 500
+                    float inputs:radius = 0.5
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-4.547473508864641e-13, -2.2737367544323206e-13, 0.07886552858451523)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_07" (
+                prepend references = @../../../../../Projects/LightingLibrary/Highbay-Frame.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -35.92766064830596)
+                double3 xformOp:scale = (0.5, 0.5, 0.5)
+                double3 xformOp:translate = (1067.380870847425, -758.2367082508707, 117.93360756669583)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @../../../../../Projects/LightingLibrary/Highbay-Lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                def DiskLight "DiskLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:colorTemperature = 4000
+                    bool inputs:enableColorTemperature = 1
+                    float inputs:exposure = 0.5
+                    float inputs:intensity = 500
+                    float inputs:radius = 0.5
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-4.547473508864641e-13, -2.2737367544323206e-13, 0.07886552858451523)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_08" (
+                prepend references = @../../../../../Projects/LightingLibrary/Highbay-Frame.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -35.92766064830596)
+                double3 xformOp:scale = (0.5, 0.5, 0.5)
+                double3 xformOp:translate = (1037.0208082240692, -742.2422942370819, 117.93360756669594)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @../../../../../Projects/LightingLibrary/Highbay-Lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                def DiskLight "DiskLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:colorTemperature = 4000
+                    bool inputs:enableColorTemperature = 1
+                    float inputs:exposure = 0.5
+                    float inputs:intensity = 500
+                    float inputs:radius = 0.5
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-4.547473508864641e-13, -2.2737367544323206e-13, 0.07886552858451523)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_09" (
+                prepend references = @../../../../../Projects/LightingLibrary/Highbay-Frame.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -35.92766064830596)
+                double3 xformOp:scale = (0.5, 0.5, 0.5)
+                double3 xformOp:translate = (1052.2614714401245, -750.368775957708, 117.93360756669415)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @../../../../../Projects/LightingLibrary/Highbay-Lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                def DiskLight "DiskLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:colorTemperature = 4000
+                    bool inputs:enableColorTemperature = 1
+                    float inputs:exposure = 0.5
+                    float inputs:intensity = 500
+                    float inputs:radius = 0.5
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-4.547473508864641e-13, -2.2737367544323206e-13, 0.07886552858451523)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_10" (
+                prepend references = @../../../../../Projects/LightingLibrary/Highbay-Frame.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -35.92766064830596)
+                double3 xformOp:scale = (0.5, 0.5, 0.5)
+                double3 xformOp:translate = (1056.8737533231917, -772.7990077035852, 117.93360756669595)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @../../../../../Projects/LightingLibrary/Highbay-Lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                def DiskLight "DiskLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:colorTemperature = 4000
+                    bool inputs:enableColorTemperature = 1
+                    float inputs:exposure = 0.5
+                    float inputs:intensity = 500
+                    float inputs:radius = 0.5
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-4.547473508864641e-13, -2.2737367544323206e-13, 0.07886552858451523)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_0" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -209.87143030459117)
+                double3 xformOp:scale = (0.0025, 0.0025, 0.0025)
+                double3 xformOp:translate = (1091.4762684591517, -738.4326928238278, 118.452769506543)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                color3f inputs:emissive_color_constant = (1, 0.9499904, 0.73745173) (
+                                    doc = "The emissive color when no emissive color texture is specified."
+                                    hidden = false
+                                    renderType = "color"
+                                )
+                                float inputs:emissive_intensity = 40 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+
+                def RectLight "RectLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:exposure = 0
+                    float inputs:height = 1032
+                    float inputs:intensity = 105.700005
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    float inputs:width = 79.1
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (5.238689482212067e-10, 1.1641532182693481e-10, -105.3785766454821)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_01" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -241.86529084606985)
+                double3 xformOp:scale = (0.0025, 0.0025, 0.0025)
+                double3 xformOp:translate = (1098.487746757688, -746.8826790479961, 118.45276950653806)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                color3f inputs:emissive_color_constant = (1, 0.9499904, 0.73745173) (
+                                    doc = "The emissive color when no emissive color texture is specified."
+                                    hidden = false
+                                    renderType = "color"
+                                )
+                                float inputs:emissive_intensity = 40 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+
+                def RectLight "RectLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:exposure = 0
+                    float inputs:height = 1032
+                    float inputs:intensity = 105.700005
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    float inputs:width = 79.1
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (5.238689482212067e-10, 1.1641532182693481e-10, -105.3785766454821)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_11" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -238.2757835313044)
+                double3 xformOp:scale = (0.0025, 0.0025, 0.0025)
+                double3 xformOp:translate = (1103.6578544484428, -756.2664091973398, 118.45276950654143)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                color3f inputs:emissive_color_constant = (1, 0.9499904, 0.73745173) (
+                                    doc = "The emissive color when no emissive color texture is specified."
+                                    hidden = false
+                                    renderType = "color"
+                                )
+                                float inputs:emissive_intensity = 40 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+
+                def RectLight "RectLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:exposure = 0
+                    float inputs:height = 1032
+                    float inputs:intensity = 105.700005
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    float inputs:width = 79.1
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (5.238689482212067e-10, 1.1641532182693481e-10, -105.3785766454821)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_12" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -234.6995526448116)
+                double3 xformOp:scale = (0.0025, 0.0025, 0.0025)
+                double3 xformOp:translate = (1109.096786318072, -766.6588226559637, 118.45276950653667)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                color3f inputs:emissive_color_constant = (1, 0.9499904, 0.73745173) (
+                                    doc = "The emissive color when no emissive color texture is specified."
+                                    hidden = false
+                                    renderType = "color"
+                                )
+                                float inputs:emissive_intensity = 40 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+
+                def RectLight "RectLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:exposure = 0
+                    float inputs:height = 1032
+                    float inputs:intensity = 105.700005
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    float inputs:width = 79.1
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (5.238689482212067e-10, 1.1641532182693481e-10, -105.3785766454821)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_13" (
+                prepend references = @../../../../../Projects/LightingLibrary/Highbay-Frame.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -35.92766064830596)
+                double3 xformOp:scale = (0.5, 0.5, 0.5)
+                double3 xformOp:translate = (1025.77322387096, -714.5687586002938, 117.93360756669694)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @../../../../../Projects/LightingLibrary/Highbay-Lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                def DiskLight "DiskLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:colorTemperature = 4000
+                    bool inputs:enableColorTemperature = 1
+                    float inputs:exposure = 2.4
+                    float inputs:intensity = 500
+                    float inputs:radius = 0.5
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-4.547473508864641e-13, -2.2737367544323206e-13, 0.07886552858451523)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_14" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -354.20073440927564)
+                double3 xformOp:scale = (0.0025, 0.0025, 0.0025)
+                double3 xformOp:translate = (1087.5056802386086, -804.7898571448285, 117.61592508205686)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                color3f inputs:emissive_color_constant = (1, 0.9499904, 0.73745173) (
+                                    doc = "The emissive color when no emissive color texture is specified."
+                                    hidden = false
+                                    renderType = "color"
+                                )
+                                float inputs:emissive_intensity = 40 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+
+                def RectLight "RectLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:exposure = 0
+                    float inputs:height = 1032
+                    float inputs:intensity = 105.700005
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    float inputs:width = 79.1
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (5.238689482212067e-10, 1.1641532182693481e-10, -105.3785766454821)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_17" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -232.0221278428417)
+                double3 xformOp:scale = (0.0025, 0.0025, 0.0025)
+                double3 xformOp:translate = (1062.8676312052173, -790.5613922890465, 117.61592508205685)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                color3f inputs:emissive_color_constant = (1, 0.9499904, 0.73745173) (
+                                    doc = "The emissive color when no emissive color texture is specified."
+                                    hidden = false
+                                    renderType = "color"
+                                )
+                                float inputs:emissive_intensity = 40 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+
+                def RectLight "RectLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:exposure = 0
+                    float inputs:height = 1032
+                    float inputs:intensity = 105.700005
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    float inputs:width = 79.1
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (5.238689482212067e-10, 1.1641532182693481e-10, -105.3785766454821)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_18" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -298.54038071014173)
+                double3 xformOp:scale = (0.0025, 0.0025, 0.0025)
+                double3 xformOp:translate = (1081.0682212010124, -806.9748682784124, 117.61592508205692)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                color3f inputs:emissive_color_constant = (1, 0.9499904, 0.73745173) (
+                                    doc = "The emissive color when no emissive color texture is specified."
+                                    hidden = false
+                                    renderType = "color"
+                                )
+                                float inputs:emissive_intensity = 40 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+
+                def RectLight "RectLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:exposure = 0
+                    float inputs:height = 1032
+                    float inputs:intensity = 105.700005
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    float inputs:width = 79.1
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (5.238689482212067e-10, 1.1641532182693481e-10, -105.3785766454821)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_19" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -298.54038071014173)
+                double3 xformOp:scale = (0.0025, 0.0025, 0.0025)
+                double3 xformOp:translate = (1075.7526197891946, -804.083879611437, 117.61592508205692)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                color3f inputs:emissive_color_constant = (1, 0.9499904, 0.73745173) (
+                                    doc = "The emissive color when no emissive color texture is specified."
+                                    hidden = false
+                                    renderType = "color"
+                                )
+                                float inputs:emissive_intensity = 40 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+
+                def RectLight "RectLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:exposure = 0
+                    float inputs:height = 1032
+                    float inputs:intensity = 105.700005
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    float inputs:width = 79.1
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (5.238689482212067e-10, 1.1641532182693481e-10, -105.3785766454821)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_20" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -298.54038071014173)
+                double3 xformOp:scale = (0.0025, 0.0025, 0.0025)
+                double3 xformOp:translate = (1070.0071677737026, -800.9591087009271, 117.61592508205692)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                color3f inputs:emissive_color_constant = (1, 0.9499904, 0.73745173) (
+                                    doc = "The emissive color when no emissive color texture is specified."
+                                    hidden = false
+                                    renderType = "color"
+                                )
+                                float inputs:emissive_intensity = 40 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+
+                def RectLight "RectLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:exposure = 0
+                    float inputs:height = 1032
+                    float inputs:intensity = 105.700005
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    float inputs:width = 79.1
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (5.238689482212067e-10, 1.1641532182693481e-10, -105.3785766454821)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "Xform_mesh_21" (
+                prepend references = @./meshes/vaporwrap_4ft-housing.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, -298.54038071014173)
+                double3 xformOp:scale = (0.0025, 0.0025, 0.0025)
+                double3 xformOp:translate = (1064.7736757004793, -798.1127767245301, 117.61592508205692)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                def Xform "Xform_mesh_2" (
+                    prepend references = @./meshes/vaporwrap_4ft-lens.usd@
+                )
+                {
+                    double3 xformOp:rotateXYZ = (0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "Looks"
+                    {
+                        over "AperturePBR_Opacity"
+                        {
+                            over "Shader"
+                            {
+                                color3f inputs:emissive_color_constant = (1, 0.9499904, 0.73745173) (
+                                    doc = "The emissive color when no emissive color texture is specified."
+                                    hidden = false
+                                    renderType = "color"
+                                )
+                                float inputs:emissive_intensity = 40 (
+                                    doc = "Intensity of the emission"
+                                    hidden = false
+                                )
+                            }
+                        }
+                    }
+                }
+
+                def RectLight "RectLight" (
+                    prepend apiSchemas = ["ShapingAPI"]
+                )
+                {
+                    float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                    float inputs:exposure = 0
+                    float inputs:height = 1032
+                    float inputs:intensity = 105.700005
+                    float inputs:shaping:cone:angle = 180
+                    float inputs:shaping:cone:softness
+                    float inputs:shaping:focus
+                    color3f inputs:shaping:focusTint
+                    asset inputs:shaping:ies:file
+                    float inputs:width = 79.1
+                    double3 xformOp:rotateXYZ = (0, 0, 90)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (5.238689482212067e-10, 1.1641532182693481e-10, -105.3785766454821)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+        }
+    }
+
+    over "instances"
+    {
+        over "inst_BCC3576AFE23E2E7_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_F7A1D55F97C68DC2_0"
+        {
         }
     }
 }
