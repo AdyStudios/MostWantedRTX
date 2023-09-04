@@ -277,43 +277,6 @@ over "RootNode"
             }
         }
 
-        over "mat_B04DA3E0AA589EE7"
-        {
-            over "Shader"
-            {
-                asset inputs:diffuse_texture = @./textures/Roads/B04DA3E0AA589EE7-Base.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:normalmap_texture = @./textures/Roads/B04DA3E0AA589EE7-Normal.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Normal"
-                    displayName = "Normal Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:reflectionroughness_texture = @./textures/Roads/B04DA3E0AA589EE7-Roughness.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Roughness Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-            }
-        }
-
         over "mat_9CAA9581D6A8158F"
         {
             over "Shader"
@@ -2244,6 +2207,124 @@ over "RootNode"
                     renderType = "texture_2d"
                 )
                 asset inputs:reflectionroughness_texture = @./textures/Props/5D80E04B258335F6-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_73DE52A00FD2A569"
+        {
+            over "Shader"
+            {
+            }
+        }
+
+        over "mat_C1D3E93FEA911EBE"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Arch/Wood/C1D3E93FEA911EBE-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Arch/Wood/C1D3E93FEA911EBE-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Arch/Wood/C1D3E93FEA911EBE-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_3A064BD694BFD90E"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Roads/3A064BD694BFD90E-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Roads/3A064BD694BFD90E-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Roads/3A064BD694BFD90E-Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_EA54F476CED728E4"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./textures/Roads/EA54F476CED728E4-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./textures/Roads/EA54F476CED728E4-Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./textures/Roads/EA54F476CED728E4-Roughness.dds@ (
                     colorSpace = "auto"
                     customData = {
                         asset default = @@
@@ -8415,6 +8496,293 @@ over "RootNode"
                 }
             }
         }
+
+        over "mesh_9651245CE1698942"
+        {
+            over "mesh"
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_EC25A794186D7E0A"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_F6C2DE86922C4FF3"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_F10B8F117D1003EC"
+        {
+            token visibility = "inherited"
+        }
+
+        over "mesh_FE25B0F782D19C53"
+        {
+            token visibility = "invisible"
+        }
+
+        over "mesh_A16F912D1153B3E7"
+        {
+            token visibility = "inherited"
+        }
+
+        over "mesh_CC85528BE95CB75E"
+        {
+            token visibility = "invisible"
+        }
+
+        over "mesh_AF302E3EFA05E951"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_8D13483CD01C5636"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_638D3CAC57C2E767"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_56A549A08D150522"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_799026D52CC54FEA"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_D7245504A4C14495"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_5516421DEADE0A23"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_CFA7A57DF9164613"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_60CB88F381A81B66"
+        {
+            token visibility = "inherited"
+
+            over "mesh"
+            {
+                token visibility = "inherited"
+            }
+        }
+
+        over "mesh_D64CA34CD69869C0"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "PoliceCarLightBar" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                color3f inputs:color = (0.22007722, 0.35937166, 1)
+                float inputs:exposure = 0
+                float inputs:intensity = 5000
+                float inputs:radius = 0.01
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-0.05, -0.5, 1.45)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "PoliceCarLightBar_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                color3f inputs:color = (1, 1, 1)
+                float inputs:exposure = 0
+                float inputs:intensity = 5000
+                float inputs:radius = 0.01
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.03, -0.36, 1.45)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "PoliceCarLightBar_02" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                color3f inputs:color = (0.22007722, 0.35937166, 1)
+                float inputs:exposure = 0
+                float inputs:intensity = 5000
+                float inputs:radius = 0.01
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.1, -0.19, 1.45)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "PoliceCarLightBar_03" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                color3f inputs:color = (1, 1, 1)
+                float inputs:exposure = 0
+                float inputs:intensity = 500
+                float inputs:radius = 0.01
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.2, 0, 1.45)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "PoliceCarLightBar_04" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                color3f inputs:color = (1, 0.20077223, 0.20077223)
+                float inputs:exposure = 0
+                float inputs:intensity = 5000
+                float inputs:radius = 0.01
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.1, 0.2, 1.45)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "PoliceCarLightBar_05" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                color3f inputs:color = (1, 1, 1)
+                float inputs:exposure = 0
+                float inputs:intensity = 500
+                float inputs:radius = 0.01
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.02, 0.35, 1.45)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "PoliceCarLightBar_06" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                color3f inputs:color = (1, 0, 0)
+                float inputs:exposure = 0
+                float inputs:intensity = 5000
+                float inputs:radius = 0.01
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-0.05, 0.5, 1.45)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_EA5FA7241B358CA2"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "HelioSpot" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 8000
+                bool inputs:enableColorTemperature = 1
+                float inputs:intensity = 30000
+                float inputs:radius = 0.5
+                float inputs:shaping:cone:angle = 54.7
+                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (2.2000000327825546, 0, 0.30000000447034836)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_0BDC98CEF36F99F3"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                float inputs:colorTemperature = 85000
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 1.9
+                float inputs:intensity = 5000
+                float inputs:radius = 0.5
+                float inputs:shaping:cone:angle = 63.600002
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (2.3000000342726707, 0, 0.4000000059604645)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
     }
 
     over "instances"
@@ -8894,7 +9262,7 @@ over "RootNode"
             }
         }
 
-        over "inst_0D1985A2CE3C44EB_0"
+        over "inst_EC25A794186D7E0A_0"
         {
             over "mesh" (
                 active = false
@@ -8903,7 +9271,7 @@ over "RootNode"
             }
         }
 
-        over "inst_9651245CE1698942_0"
+        over "inst_F6C2DE86922C4FF3_0"
         {
             over "mesh" (
                 active = false
@@ -8912,7 +9280,7 @@ over "RootNode"
             }
         }
 
-        over "inst_FE25B0F782D19C53_0"
+        over "inst_AF302E3EFA05E951_0"
         {
             over "mesh" (
                 active = false
@@ -8921,7 +9289,7 @@ over "RootNode"
             }
         }
 
-        over "inst_74391A3498ABB16D_0"
+        over "inst_8D13483CD01C5636_0"
         {
             over "mesh" (
                 active = false
@@ -8930,7 +9298,7 @@ over "RootNode"
             }
         }
 
-        over "inst_D6128BF35D4B8FAF_0"
+        over "inst_638D3CAC57C2E767_0"
         {
             over "mesh" (
                 active = false
@@ -8939,7 +9307,7 @@ over "RootNode"
             }
         }
 
-        over "inst_DC87624B28E0747E_0"
+        over "inst_56A549A08D150522_0"
         {
             over "mesh" (
                 active = false
@@ -8948,12 +9316,77 @@ over "RootNode"
             }
         }
 
-        over "inst_D4A11A4F0F185AEA_0"
+        over "inst_799026D52CC54FEA_0"
         {
             over "mesh" (
                 active = false
             )
             {
+            }
+        }
+
+        over "inst_D7245504A4C14495_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_5516421DEADE0A23_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_CFA7A57DF9164613_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_D64CA34CD69869C0_1"
+        {
+            over "PoliceCarLightBar"
+            {
+                float inputs:exposure = 11.6
+            }
+
+            over "PoliceCarLightBar_01"
+            {
+                float inputs:exposure = 11.6
+            }
+
+            over "PoliceCarLightBar_02"
+            {
+                float inputs:exposure = 11.6
+            }
+
+            over "PoliceCarLightBar_03"
+            {
+                float inputs:exposure = 11.6
+            }
+
+            over "PoliceCarLightBar_04"
+            {
+                float inputs:exposure = 11.6
+            }
+
+            over "PoliceCarLightBar_05"
+            {
+                float inputs:exposure = 11.6
+            }
+
+            over "PoliceCarLightBar_06"
+            {
+                float inputs:exposure = 11.6
             }
         }
     }
