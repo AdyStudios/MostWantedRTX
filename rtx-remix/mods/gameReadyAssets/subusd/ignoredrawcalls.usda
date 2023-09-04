@@ -1,0 +1,346 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+        over "mesh_985F5B5AE83C004A"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_53D2104021DEFEAD"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_2971ABB8C8A6D2C9"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_79709AABDD4FFB50"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_AFDB69D4EE12BEE9"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_D416A38290F090FB"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_8A900BE49C10E702"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_1801C09764A6F8D9"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_6D954D3D14AB7B86"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_29577439437E3E6E"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_7839C6EF8AFF5511"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_0D58AFC9C914F4C8"
+        {
+            custom int preserveOriginalDrawCall = 1
+        }
+
+        over "mesh_7C39E9C3D3DEB834"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_F9DBF7AEAE6E594E"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_F06DCF92D807B5A5"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_FF2CB4355053F19D"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_53D8A0D543036B18"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_B0ED77312581AA60"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_C792BE495DBAD28C"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_C3549D463DF4EA3D"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_5CD09FCCE8E8EEBB"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_C0ADDA310A616562"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_4BEDA7B6094AA05F"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_84962F6ADA69CCA2"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_EBC93FC93CED86FB"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_47C8EBA5EDBC424F"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_7FC5B1472309A18B"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_9964D647EE5CCA80"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_129C2D5E2CC5A2C5"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_311CF2BA2E1A6D0B"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_736EA7A37D72599D"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_898A9B7C6A0BA40A"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_E3B6B2D49C8A1BDB"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_D8DF95321B1B717C"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_76A67CA6554D4A4B"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_7136A44207FA1571"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_979ECE5858F5608F"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_EB42BB76D977C52E"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_728B62CE650EBA8A"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_1FC707F96610A69A"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_D1E58722DBA50296"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_68F031A7FD21C6EA"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_5EB9DE6506E1F605"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_EC25A794186D7E0A"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_F6C2DE86922C4FF3"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_F10B8F117D1003EC"
+        {
+            token visibility = "inherited"
+        }
+
+        over "mesh_FE25B0F782D19C53"
+        {
+            token visibility = "invisible"
+        }
+
+        over "mesh_A16F912D1153B3E7"
+        {
+            token visibility = "inherited"
+        }
+
+        over "mesh_CC85528BE95CB75E"
+        {
+            token visibility = "invisible"
+        }
+
+        over "mesh_AF302E3EFA05E951"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_8D13483CD01C5636"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_638D3CAC57C2E767"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_56A549A08D150522"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_799026D52CC54FEA"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_D7245504A4C14495"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_5516421DEADE0A23"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_CFA7A57DF9164613"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_CAB0D515750A8C02"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_B4B9B8A430099244"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_A0BF3512CC138865"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_C485324B2E1BDE21"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_DA072E74F557CFAA"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_4A4EDB083CE00331"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_695F5123880F8801"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_51773F443F34EB03"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_4A5D8A9AB45A4CDA"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_5DC4D6EC8F4CCD47"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+    }
+}
+
