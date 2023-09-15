@@ -7753,6 +7753,31 @@ over "RootNode"
                 asset inputs:reflectionroughness_texture = @./subusd/textures/Garages/MainMenu/MainMenuPavement_Roughness.dds@
             }
         }
+
+        over "mat_0AD8EBB518E9E037"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./subusd/textures/Garages/CareerGarage/CRIB1_FLOOR_BaseColor.dds@ (
+                    colorSpace = "auto"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                float inputs:displace_in = 0.05
+                asset inputs:height_texture = @./subusd/textures/Garages/CareerGarage/CRIB1_FLOOR_Displacement.dds@ (
+                    colorSpace = "raw"
+                )
+                asset inputs:normalmap_texture = @./subusd/textures/Garages/CareerGarage/CRIB1_FLOOR_Normal.dds@ (
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./subusd/textures/Garages/CareerGarage/CRIB1_FLOOR_Roughness.dds@ (
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
     }
 }
 
@@ -8148,13 +8173,5 @@ def Scope "Looks"
             )
         }
     }
-}
-
-def "Viewport_Waypoints"
-{
-}
-
-def Scope "Scope"
-{
 }
 
