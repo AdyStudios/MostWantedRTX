@@ -1444,7 +1444,16 @@ over "RootNode"
         {
             over "Shader"
             {
-                asset inputs:diffuse_texture = @./textures/Garages/MainMenu/F8D68EA08994EB7D-Base.dds@
+                asset inputs:diffuse_texture = @./textures/Garages/MainMenu/F8D68EA08994EB7D-Base.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
                 asset inputs:normalmap_texture = @./textures/Garages/MainMenu/F8D68EA08994EB7D-Normal.dds@ (
                     colorSpace = "auto"
                     customData = {

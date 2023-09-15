@@ -73,17 +73,17 @@ over "RootNode"
             )
             {
                 float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
-                float inputs:colorTemperature = 7500
+                float inputs:colorTemperature = 8000
                 bool inputs:enableColorTemperature = 1
-                float inputs:exposure = 10.900001
+                float inputs:exposure = 8.400001
                 float inputs:intensity = 500
                 float inputs:radius = 0.05
-                float inputs:shaping:cone:angle = 47.4
-                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:cone:angle = 55.2
+                float inputs:shaping:cone:softness = 1.4
                 float inputs:shaping:focus
                 color3f inputs:shaping:focusTint
                 asset inputs:shaping:ies:file
-                double3 xformOp:rotateXYZ = (0, -53, 0)
+                double3 xformOp:rotateXYZ = (0, -75.90000113099813, 0)
                 double3 xformOp:scale = (1, 1, 1)
                 double3 xformOp:translate = (2.6, -0.57, 0.5)
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
@@ -94,17 +94,17 @@ over "RootNode"
             )
             {
                 float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
-                float inputs:colorTemperature = 7500
+                float inputs:colorTemperature = 8000
                 bool inputs:enableColorTemperature = 1
-                float inputs:exposure = 10.900001
+                float inputs:exposure = 8.400001
                 float inputs:intensity = 500
                 float inputs:radius = 0.05
-                float inputs:shaping:cone:angle = 47.4
-                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:cone:angle = 55.2
+                float inputs:shaping:cone:softness = 1.4
                 float inputs:shaping:focus
                 color3f inputs:shaping:focusTint
                 asset inputs:shaping:ies:file
-                double3 xformOp:rotateXYZ = (0, -45, 0)
+                double3 xformOp:rotateXYZ = (0, -75.90000113099813, 0)
                 double3 xformOp:scale = (1, 1, 1)
                 double3 xformOp:translate = (2.6, 0.57, 0.5)
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
@@ -7530,6 +7530,33 @@ over "RootNode"
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
         }
+
+        over "mesh_681926CD80CD9909"
+        {
+            custom int preserveOriginalDrawCall = 1
+
+            def DistantLight "MainMenuSun" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float inputs:angle = 30
+                color3f inputs:color = (1, 0.99367976, 0.7876448)
+                float inputs:colorTemperature = 5000
+                float inputs:diffuse = 1
+                bool inputs:enableColorTemperature = 1
+                float inputs:exposure = 0
+                float inputs:intensity = 0.5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (141.4000021070242, -25.00000037252903, -169.00000251829624)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
     }
 
     over "Looks"
@@ -7710,6 +7737,20 @@ over "RootNode"
                     hidden = false
                     renderType = "texture_2d"
                 )
+            }
+        }
+
+        over "mat_F8D68EA08994EB7D"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./subusd/textures/Garages/MainMenu/MainMenuPavement_BaseColor.dds@
+                float inputs:displace_in = 0.05
+                asset inputs:height_texture = @./subusd/textures/Garages/MainMenu/MainMenuPavement_Displacement.dds@ (
+                    colorSpace = "raw"
+                )
+                asset inputs:normalmap_texture = @./subusd/textures/Garages/MainMenu/MainMenuPavement_Normal.dds@
+                asset inputs:reflectionroughness_texture = @./subusd/textures/Garages/MainMenu/MainMenuPavement_Roughness.dds@
             }
         }
     }
