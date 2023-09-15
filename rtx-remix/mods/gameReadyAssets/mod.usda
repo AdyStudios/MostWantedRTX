@@ -7400,6 +7400,136 @@ over "RootNode"
                 }
             }
         }
+
+        over "mesh_78C5653B22887E1C"
+        {
+            def Xform "Xform_78C5653B22887E1C_0" (
+                prepend references = @./meshes/CustomCarLotCeiling.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_DA0C213FBEEA94D6"
+        {
+            def Xform "Xform_DA0C213FBEEA94D6_0" (
+                prepend references = @./meshes/CustomMesh_MainMenu-MetalBuildingSide.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_AC9D2059A94662C7"
+        {
+            def Xform "Xform_AC9D2059A94662C7_0" (
+                prepend references = @./meshes/CustomMesh_MainMenu-Roof.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_62CB9D8014C6800D"
+        {
+            def Xform "Xform_62CB9D8014C6800D_0" (
+                prepend references = @./meshes/CustomMesh_MainMenu-WoodenSupports.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_B62FD172DB0C0A68"
+        {
+            def Xform "Xform_B62FD172DB0C0A68_0" (
+                prepend references = @./meshes/CustomMesh_MainMenu-El.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_2EA0E06E67305C67"
+        {
+            def Xform "Xform_2EA0E06E67305C67_0" (
+                prepend references = @./meshes/CustomMesh_MainMenu-WaterTowers.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_B326D7527FD81307"
+        {
+            def Xform "Xform_B326D7527FD81307_0" (
+                prepend references = @./meshes/CustomMesh_MainMenu-MetalSiding.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_4EDC20DD012BAAF9"
+        {
+            def Xform "Xform_4EDC20DD012BAAF9_0" (
+                prepend references = @./meshes/CustomMesh_MainMenu-RustedMetal.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_BAE61863E2F94B05"
+        {
+            def Xform "Xform_BAE61863E2F94B05_0" (
+                prepend references = @./meshes/CustomMesh_MainMenu-Iron.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_073F76377E6E3782"
+        {
+            def Xform "Xform_073F76377E6E3782_0" (
+                prepend references = @./meshes/CustomMesh_ChainLinkFence.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
     }
 
     over "Looks"
