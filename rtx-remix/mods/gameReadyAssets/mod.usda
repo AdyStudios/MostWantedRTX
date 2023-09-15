@@ -7440,49 +7440,10 @@ over "RootNode"
             }
         }
 
-        over "mesh_62CB9D8014C6800D"
+        over "mesh_073F76377E6E3782"
         {
-            def Xform "Xform_62CB9D8014C6800D_0" (
-                prepend references = @./meshes/CustomMesh_MainMenu-WoodenSupports.usd@
-            )
-            {
-                double3 xformOp:rotateXYZ = (0, 0, 0)
-                double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-            }
-        }
-
-        over "mesh_B62FD172DB0C0A68"
-        {
-            def Xform "Xform_B62FD172DB0C0A68_0" (
-                prepend references = @./meshes/CustomMesh_MainMenu-El.usd@
-            )
-            {
-                double3 xformOp:rotateXYZ = (0, 0, 0)
-                double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-            }
-        }
-
-        over "mesh_2EA0E06E67305C67"
-        {
-            def Xform "Xform_2EA0E06E67305C67_0" (
-                prepend references = @./meshes/CustomMesh_MainMenu-WaterTowers.usd@
-            )
-            {
-                double3 xformOp:rotateXYZ = (0, 0, 0)
-                double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-            }
-        }
-
-        over "mesh_B326D7527FD81307"
-        {
-            def Xform "Xform_B326D7527FD81307_0" (
-                prepend references = @./meshes/CustomMesh_MainMenu-MetalSiding.usd@
+            def Xform "Xform_073F76377E6E3782_0" (
+                prepend references = @./meshes/CustomMesh_ChainLinkFence.usd@
             )
             {
                 double3 xformOp:rotateXYZ = (0, 0, 0)
@@ -7505,6 +7466,45 @@ over "RootNode"
             }
         }
 
+        over "mesh_B326D7527FD81307"
+        {
+            def Xform "Xform_B326D7527FD81307_0" (
+                prepend references = @./meshes/CustomMesh_MainMenu-MetalSiding.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_2EA0E06E67305C67"
+        {
+            def Xform "Xform_2EA0E06E67305C67_0" (
+                prepend references = @./meshes/CustomMesh_MainMenu-WaterTowers.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_B62FD172DB0C0A68"
+        {
+            def Xform "Xform_B62FD172DB0C0A68_0" (
+                prepend references = @./meshes/CustomMesh_MainMenu-El.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
         over "mesh_BAE61863E2F94B05"
         {
             def Xform "Xform_BAE61863E2F94B05_0" (
@@ -7518,10 +7518,10 @@ over "RootNode"
             }
         }
 
-        over "mesh_073F76377E6E3782"
+        over "mesh_62CB9D8014C6800D"
         {
-            def Xform "Xform_073F76377E6E3782_0" (
-                prepend references = @./meshes/CustomMesh_ChainLinkFence.usd@
+            def Xform "Xform_62CB9D8014C6800D_0" (
+                prepend references = @./meshes/CustomMesh_MainMenu-WoodenSupports.usd@
             )
             {
                 double3 xformOp:rotateXYZ = (0, 0, 0)
@@ -7712,10 +7712,6 @@ over "RootNode"
                 )
             }
         }
-    }
-
-    over "instances"
-    {
     }
 }
 
