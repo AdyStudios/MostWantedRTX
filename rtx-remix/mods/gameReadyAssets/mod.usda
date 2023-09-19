@@ -7764,10 +7764,6 @@ over "RootNode"
                     hidden = false
                     renderType = "texture_2d"
                 )
-                float inputs:displace_in = 0.05
-                asset inputs:height_texture = @./subusd/textures/Garages/CareerGarage/CRIB1_FLOOR_Displacement.dds@ (
-                    colorSpace = "raw"
-                )
                 asset inputs:normalmap_texture = @./subusd/textures/Garages/CareerGarage/CRIB1_FLOOR_Normal.dds@ (
                     hidden = false
                     renderType = "texture_2d"
@@ -7776,6 +7772,129 @@ over "RootNode"
                     hidden = false
                     renderType = "texture_2d"
                 )
+            }
+        }
+
+        over "mat_3379D0F80ED88C6E"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./subusd/textures/WheelTread_BaseColor.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./subusd/textures/WheelTread_Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./subusd/textures/WheelTread_Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_0D051DA3FC607A51"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./subusd/textures/Garages/CareerGarage/CRIB1_ROOFTILES_BaseColor.dds@
+                float inputs:displace_in = 0.05
+                asset inputs:height_texture = @./subusd/textures/Garages/CareerGarage/CRIB1_ROOFTILES_Displacement.ddss@ (
+                    colorSpace = "raw"
+                )
+                asset inputs:metallic_texture = @./subusd/textures/Garages/CareerGarage/CRIB1_ROOFTILES_Metallic.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Metallic Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./subusd/textures/Garages/CareerGarage/CRIB1_ROOFTILES_Normal.dds@
+                asset inputs:reflectionroughness_texture = @./subusd/textures/Garages/CareerGarage/CRIB1_ROOFTILES_Roughness.dds@
+            }
+        }
+
+        over "mat_128E54E966376D45"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./subusd/textures/Garages/CareerGarage/GIRDER_BaseColor.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:metallic_texture = @./subusd/textures/Garages/CareerGarage/GIRDER_Metallic.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Metallic Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./subusd/textures/Garages/CareerGarage/GIRDER_Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./subusd/textures/Garages/CareerGarage/GIRDER_Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_8E276D978581FF0C"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./subusd/textures/Garages/CareerGarage/GIRDER_BaseColor.dds@
+                float inputs:displace_in = 0.05
+                asset inputs:height_texture = @./subusd/textures/Garages/CareerGarage/GIRDER_Displacement.dds@ (
+                    colorSpace = "raw"
+                )
+                asset inputs:metallic_texture = @./subusd/textures/Garages/CareerGarage/GIRDER_Metallic.dds@
+                asset inputs:normalmap_texture = @./subusd/textures/Garages/CareerGarage/GIRDER_Normal.dds@
+                asset inputs:reflectionroughness_texture = @./subusd/textures/Garages/CareerGarage/GIRDER_Roughness.dds@
             }
         }
     }
