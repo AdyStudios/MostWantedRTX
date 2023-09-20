@@ -2729,43 +2729,6 @@ over "RootNode"
                 )
             }
         }
-
-        over "mat_EA54F476CED728E4"
-        {
-            over "Shader"
-            {
-                asset inputs:diffuse_texture = @./textures/Roads/EA54F476CED728E4-Base.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Diffuse"
-                    displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:normalmap_texture = @./textures/Roads/EA54F476CED728E4-Normal.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Normal"
-                    displayName = "Normal Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:reflectionroughness_texture = @./textures/Roads/EA54F476CED728E4-Roughness.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Specular"
-                    displayName = "Roughness Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-            }
-        }
     }
 }
 

@@ -7545,7 +7545,7 @@ over "RootNode"
                 float inputs:diffuse = 1
                 bool inputs:enableColorTemperature = 1
                 float inputs:exposure = 0
-                float inputs:intensity = 0.5
+                float inputs:intensity = 0.6
                 float inputs:shaping:cone:angle = 180
                 float inputs:shaping:cone:softness
                 float inputs:shaping:focus
@@ -7895,6 +7895,115 @@ over "RootNode"
                 asset inputs:metallic_texture = @./subusd/textures/Garages/CareerGarage/GIRDER_Metallic.dds@
                 asset inputs:normalmap_texture = @./subusd/textures/Garages/CareerGarage/GIRDER_Normal.dds@
                 asset inputs:reflectionroughness_texture = @./subusd/textures/Garages/CareerGarage/GIRDER_Roughness.dds@
+            }
+        }
+
+        over "mat_F4EF012F20DA0C21"
+        {
+            over "Shader"
+            {
+                float inputs:anisotropy_constant = 0 (
+                    customData = {
+                        float default = 0
+                        dictionary range = {
+                            float max = 1
+                            float min = -1
+                        }
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Anisotropy Amount"
+                    doc = "0 for isotropic, extents of -1 to 1 for anisotropy"
+                    hidden = false
+                )
+                asset inputs:diffuse_texture = @./subusd/textures/Roads/TRNS_ALL_LA_PAVEMENTA_YL_01_BaseColor.dds@
+                asset inputs:metallic_texture = @./subusd/textures/Roads/TRNS_ALL_LA_PAVEMENTA_YL_01_Metallic.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Metallic Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./subusd/textures/Roads/TRNS_ALL_LA_PAVEMENTA_YL_01_Normal.dds@
+                float inputs:reflection_roughness_constant = 1 (
+                    customData = {
+                        float default = 0.5
+                        dictionary range = {
+                            float max = 1
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Amount"
+                    doc = "Higher roughness values lead to more blurry reflections"
+                    hidden = false
+                )
+                asset inputs:reflectionroughness_texture = @./subusd/textures/Roads/TRNS_ALL_LA_PAVEMENTA_YL_01_Roughness.dds@ (
+                    colorSpace = "auto"
+                )
+            }
+        }
+
+        over "mat_9E36571AD0B38A84"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./subusd/textures/Roads/TRNS_ALL_LB_PAVEMENTA_NL_01_BaseColor.dds@
+                asset inputs:normalmap_texture = @./subusd/textures/Roads/TRNS_ALL_LB_PAVEMENTA_NL_01_Normal.dds@
+                asset inputs:reflectionroughness_texture = @./subusd/textures/Roads/TRNS_ALL_LB_PAVEMENTA_NL_01_Roughness.dds@
+            }
+        }
+
+        over "mat_CCDA8565D4A48BF2"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./subusd/textures/Roads/TRNS_ALL_LB_PAVEMENTA_WD_01_BaseColor.dds@
+                asset inputs:normalmap_texture = @./subusd/textures/Roads/TRNS_ALL_LB_PAVEMENTA_WD_01_Normal.dds@
+                asset inputs:reflectionroughness_texture = @./subusd/textures/Roads/TRNS_ALL_LB_PAVEMENTA_WD_01_Roughness.dds@
+            }
+        }
+
+        over "mat_643ECFA459358F7E"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./subusd/textures/Roads/TRNS_ALL_LA_PAVEMENTA_WL_01_BaseColor.dds@
+                asset inputs:normalmap_texture = @./subusd/textures/Roads/TRNS_ALL_LA_PAVEMENTA_WL_01_Normal.dds@
+                asset inputs:reflectionroughness_texture = @./subusd/textures/Roads/TRNS_ALL_LA_PAVEMENTA_WL_01_Roughness.dds@
+            }
+        }
+
+        over "mat_BDDFF5C57A586024"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./subusd/textures/Roads/TRNS_ALL_LZ_PAVEMENTA_WD_01_BaseColor.dds@
+                asset inputs:normalmap_texture = @./subusd/textures/Roads/TRNS_ALL_LZ_PAVEMENTA_WD_01_Normal.dds@
+                asset inputs:reflectionroughness_texture = @./subusd/textures/Roads/TRNS_ALL_LZ_PAVEMENTA_WD_01_Roughness.dds@
+            }
+        }
+
+        over "mat_94B56C55E727194E"
+        {
+            over "Shader"
+            {
+            }
+        }
+
+        over "mat_0FE566B27E2F6A5C"
+        {
+            over "Shader"
+            {
+            }
+        }
+
+        over "mat_53F696533DAA7D11"
+        {
+            over "Shader"
+            {
             }
         }
     }
