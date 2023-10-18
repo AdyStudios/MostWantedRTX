@@ -341,6 +341,96 @@ over "RootNode"
         {
             custom int preserveOriginalDrawCall = 0
         }
+
+        over "mesh_F5009A26DE27A092"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_06B7D3F87AF48C15"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_35D1228CAB3760EE"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_3E8AFC31F391E184"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_A93129E6ACC1049E"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_48E2627F05320CD0"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_95D8D1530A8DE917"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_2B9D4554D4859029"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_E8640DCEE44D1B84"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_6A18849F1879A1E1"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_F8CCF15AFBF26255"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_14BCF79A21228C55"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_64C4E40EFD844CB3"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_6294178C1E54D2F2"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_2FA132C1B99EF7FA"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_3DACD34DB60E55D3"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_6742955921C7CE5C"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
+
+        over "mesh_4960C60B97BA2BA7"
+        {
+            custom int preserveOriginalDrawCall = 0
+        }
     }
 }
 
