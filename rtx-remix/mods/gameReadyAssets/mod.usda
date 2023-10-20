@@ -6611,6 +6611,68 @@ over "RootNode"
                 float inputs:exposure = 1.1
             }
         }
+
+        over "mesh_819DC10CBE623945"
+        {
+            def Xform "Xform_819DC10CBE623945_0" (
+                prepend references = @./subusd/meshes/CustomMesh_GrayBrickWall.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_491ACB343D1CF223"
+        {
+            token visibility = "inherited"
+
+            def Xform "Xform_491ACB343D1CF223_0" (
+                prepend references = @./subusd/meshes/CustomMesh_EastSideGarageRoof.usd@
+            )
+            {
+                token visibility = "inherited"
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+                token visibility = "invisible"
+            }
+        }
+
+        over "mesh_4798A611CEFE3658"
+        {
+            token visibility = "inherited"
+
+            over "mesh"
+            {
+                token visibility = "invisible"
+            }
+
+            def Xform "Xform_4798A611CEFE3658_0" (
+                prepend references = @./subusd/meshes/CustomMesh_HighWay_Elevated_Support.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
     }
 
     over "Looks"
@@ -6642,8 +6704,14 @@ over "RootNode"
                     hidden = false
                     renderType = "texture_2d"
                 )
-                float inputs:metallic_constant = 0.35999998 (
+                float inputs:metallic_constant = 0.19 (
                     doc = """Metallic Material
+
+"""
+                    hidden = false
+                )
+                float inputs:reflection_roughness_constant = 0.049999997 (
+                    doc = """Higher roughness values lead to more blurry reflections
 
 """
                     hidden = false
@@ -7155,6 +7223,146 @@ This parameter is unused.
                 )
             }
         }
+
+        over "mat_833D638D17805177"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./subusd/textures/SkyBox.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_F8D68EA08994EB7D"
+        {
+            over "Shader"
+            {
+                float inputs:displace_in = 1 (
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
+This parameter is unused.
+"""
+                    hidden = false
+                )
+                asset inputs:height_texture = @@ (
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
+This parameter is unused.
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_19AD5D0C9B84147A"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./subusd/textures/Props/Barriers/OBJ_BARRIERCONCRETE_BaseColor.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./subusd/textures/Props/Barriers/OBJ_BARRIERCONCRETE_Normal.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./subusd/textures/Props/Barriers/OBJ_BARRIERCONCRETE_Roughness.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_55704AF14398948F"
+        {
+            over "Shader"
+            {
+                color3f inputs:emissive_color_constant = (1, 0.99999, 0.99999) (
+                    customData = {
+                        float3 default = (1, 0.1, 0.1)
+                        dictionary range = {
+                            float3 max = (1, 1, 1)
+                            float3 min = (0, 0, 0)
+                        }
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Emissive Color"
+                    doc = """The emissive color when no emissive color texture is specified.
+
+"""
+                    hidden = false
+                    renderType = "color"
+                )
+                float inputs:emissive_intensity = 5 (
+                    customData = {
+                        float default = 40
+                        dictionary range = {
+                            float max = 65504
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Emissive Intensity"
+                    doc = """Intensity of the emission
+
+"""
+                    hidden = false
+                )
+                asset inputs:emissive_mask_texture = @@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Emissive Mask Map"
+                    doc = """The texture masking the emissive color
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                bool inputs:enable_emission = 1 (
+                    customData = {
+                        bool default = 0
+                    }
+                    displayGroup = "Emissive"
+                    displayName = "Enable Emission"
+                    doc = """Enables the emission of light from the material
+
+"""
+                    hidden = false
+                )
+            }
+        }
     }
 
     over "instances"
@@ -7229,6 +7437,28 @@ This parameter is unused.
             )
             {
             }
+        }
+
+        over "sky_EDBF30D1F28CFBC4_0"
+        {
+            float3 xformOp:rotateZYX = (-0, 0, 134.41223)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "inst_EDBF30D1F28CFBC4_0"
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "inst_4798A611CEFE3658_0"
+        {
+            token visibility = "invisible"
         }
     }
 }

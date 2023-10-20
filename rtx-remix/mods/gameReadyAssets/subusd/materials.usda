@@ -469,7 +469,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -623,7 +625,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -660,7 +664,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -734,7 +740,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -886,7 +894,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -897,7 +907,9 @@ over "RootNode"
                     }
                     displayGroup = "Emissive"
                     displayName = "Emissive Mask Map"
-                    doc = "The texture masking the emissive color"
+                    doc = """The texture masking the emissive color
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -1471,13 +1483,39 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
-                float inputs:displace_in = 0.05
+                float inputs:displace_in = 0.05 (
+                    customData = {
+                        float default = 1
+                        dictionary range = {
+                            float max = 255
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Displacement"
+                    displayName = "Inwards Displacement"
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
+This parameter is unused.
+"""
+                    hidden = false
+                )
                 asset inputs:height_texture = @./textures/Garages/MainMenu/MainMenuPavement_Displacement.dds@ (
                     colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Displacement"
+                    displayName = "Height Map"
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
+This parameter is unused.
+"""
+                    hidden = false
+                    renderType = "texture_2d"
                 )
                 asset inputs:normalmap_texture = @./textures/Garages/MainMenu/MainMenuPavement_Normal.dds@ (
                     colorSpace = "auto"
@@ -1512,7 +1550,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -1549,7 +1589,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -1586,7 +1628,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -1623,7 +1667,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -1660,7 +1706,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -1697,7 +1745,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -1744,7 +1794,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -1781,7 +1833,9 @@ over "RootNode"
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -1795,7 +1849,9 @@ over "RootNode"
                     }
                     displayGroup = "Emissive"
                     displayName = "Emissive Intensity"
-                    doc = "Intensity of the emission"
+                    doc = """Intensity of the emission
+
+"""
                     hidden = false
                 )
                 asset inputs:emissive_mask_texture = @./textures/Garages/MainMenu/5A308B18724DC2BE-Emissive.dds@ (
@@ -1805,7 +1861,9 @@ over "RootNode"
                     }
                     displayGroup = "Emissive"
                     displayName = "Emissive Mask Map"
-                    doc = "The texture masking the emissive color"
+                    doc = """The texture masking the emissive color
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -1815,7 +1873,9 @@ over "RootNode"
                     }
                     displayGroup = "Emissive"
                     displayName = "Enable Emission"
-                    doc = "Enables the emission of light from the material"
+                    doc = """Enables the emission of light from the material
+
+"""
                     hidden = false
                 )
                 asset inputs:metallic_texture = @./textures/Garages/MainMenu/5A308B18724DC2BE-Metallic.dds@ (
@@ -2498,7 +2558,9 @@ This parameter is unused.
                     }
                     displayGroup = "Diffuse"
                     displayName = "Albedo Map"
-                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
                     hidden = false
                     renderType = "texture_2d"
                 )
